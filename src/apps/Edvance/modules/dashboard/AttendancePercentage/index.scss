@@ -1,0 +1,78 @@
+.Attendence {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .chart-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .chart-content {
+        position: relative;
+        width: 100%;
+        .chart__content__layout {
+            display: flex;
+            .chart__content__layout__right {
+                width: 40%;
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                .title{
+                    color: #AFAFAF;
+                    font-size: 10px;
+                    line-height: 16px;
+                    font-family: "Poppins";
+                    font-weight: 500; 
+                }
+            }
+            .chart__content__layout__left {
+                width: 40%;
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                .title{
+                    color: #AFAFAF;
+                    font-size: 10px;
+                    line-height: 16px;
+                    font-family: "Poppins";
+                    font-weight: 500; 
+                }
+            }
+        }
+        .p-progressbar {
+            border: 0 none;
+            height: 1.5rem;
+            background: #2ACCCB;
+            border-radius: 6px;
+        }
+        .p-progressbar-label {
+            display: none !important;
+        }
+        .p-progressbar .p-progressbar-value {
+            border: 0 none;
+            margin: 0;
+            background: #F1A245 !important;
+        }
+    }
+    .p-dropdown {
+        background: #ffffff;
+        border: 1px solid #d1d5db;
+        transition:
+            background-color 0.2s,
+            color 0.2s,
+            border-color 0.2s,
+            box-shadow 0.2s;
+        border-radius: 18px !important;
+        outline-color: transparent;
+    }
+    .title {
+        color: #263446;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: "Poppins";
+        font-weight: 500;
+    }
+}

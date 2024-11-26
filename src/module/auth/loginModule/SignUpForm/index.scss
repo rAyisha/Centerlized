@@ -1,0 +1,58 @@
+@import "../../../../utility/colors.scss";
+
+.signup__form__container {
+  // height: 76vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .form__top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .form__title {
+      font-size: 24px;
+      font-weight: 600;
+      color: $button-font-color;
+    }
+
+    .dropdown__container {
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  .button__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 40px;
+
+    button {
+      background-color: transparent;
+      box-shadow: 18px 18px 30px 0px $button-shadow-start,
+        -18px -18px 30px 0px $button-shadow-end;
+
+      &:focus {
+        background: linear-gradient(145deg,
+            $button-focus-start,
+            $button-focus-end );
+        box-shadow: 18px 18px 30px 0px $button-focus-start,
+          -18px -18px 30px 0px $button-focus-end;
+      }
+
+      .p-button-label {
+        color: $button-font-color;
+      }
+    }
+
+    .signup__caption {
+      align-self: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #063a5a;
+      text-align: end;
+    }
+  }
+}

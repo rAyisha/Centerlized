@@ -1,0 +1,67 @@
+@import "../../utility/colors";
+
+.table__search__layout {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse !important;
+
+    .header__title {
+        font-size: 20px;
+        font-weight: 600;
+        color: $dimgray;
+    }
+
+    .search__export__layout {
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+
+        .search__view {
+            // background-color: $lightlightgreen;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 16px;
+            border-radius: 6px;
+            border: 1px solid var(--base-theme-color);
+
+            input {
+                flex: 1;
+                border: none;
+                background: transparent;
+                cursor: $cobalt;
+                color: $cobalt;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::placeholder {
+                    color: $lightgrey;
+                }
+            }
+        }
+
+        .p-button{
+            overflow: visible;
+        }
+
+        .export__view {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: $aliceblue;
+            color: $cobalt;
+            font-size: 16px;
+            padding: 10px 16px;
+            cursor: pointer;
+
+            .divider {
+                background-color: $cobalt;
+                width: 1px;
+                height: 16px;
+            }
+        }
+    }
+}

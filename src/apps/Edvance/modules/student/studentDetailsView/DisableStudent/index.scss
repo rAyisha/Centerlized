@@ -1,0 +1,40 @@
+.disable-student-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .text-area-label {
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #263446;
+  }
+
+  .text-area-container {
+    width: 100%;
+  }
+
+  .popup_main_container {
+    .popup-button-container {
+      background-color: #FFFFFF;
+      width: 100%;
+      color: #3D5EE1;
+      font-size: 14px;
+      font-family: "Poppins";
+      border: 1px solid #DBDCE6;
+      text-align: center;
+      display: flex;
+      flex-direction: row-reverse;
+      // text-align: center;
+      justify-content: center;
+      gap: 10px;
+
+    }
+
+    .pop_card {
+      border: 1px solid #DBDCE6;
+      border-radius: 6px;
+      padding: 24px 16px;
+    }
+  }
+}

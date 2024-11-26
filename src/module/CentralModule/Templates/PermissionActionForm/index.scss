@@ -1,0 +1,32 @@
+@import "../../../../utility//colors.scss";
+
+.template__module__form__container {
+    .form__title {
+        font-size: 24px;
+        font-weight: 600;
+        color: $button-font-color;
+        // text-align: center;
+    }
+
+}
+
+.template__assign__users__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .users__title{
+        font-size: 16px;
+        font-weight: 400;
+        color: $font-color;
+    }
+
+    .template__assign__data__area {
+        height: 100%;
+
+        .assign__user__checkbox__ontroller {
+            height: 60%;
+            overflow-y: scroll;
+        }
+    }
+}

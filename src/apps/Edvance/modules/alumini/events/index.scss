@@ -1,0 +1,49 @@
+.alumni_events {
+    .breadcrum_layout {
+        border-bottom: 1px solid #DBDCE6;
+        padding-bottom: 20px;
+    }
+
+    .action_template {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .action_icon {
+            cursor: pointer;
+        }
+    }
+
+    .p-column-header-content {
+        .column__header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #80889e;
+            font-weight: 400;
+            text-wrap: nowrap;
+        }
+
+        span[data-pc-section="sort"] {
+            display: none;
+        }
+    }
+
+    .p-datatable-thead tr {
+        border: none;
+        border-radius: 6px;
+
+        th {
+            background-color: #f3f4f6;
+            border: none;
+            
+            &:nth-last-child(1){
+                width: 12%;
+            }
+
+            &.p-highlight {
+                background-color: #eef2ff;
+            }
+        }
+    }
+}

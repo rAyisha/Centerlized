@@ -1,0 +1,63 @@
+@import "../../../../utility/colors.scss";
+
+.login__form__container {
+  // height: 76vh;
+  min-height: 76vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .form__top {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .form__title {
+      margin-top: 32px;
+      font-size: 24px;
+      font-weight: 600;
+      color: $button-font-color;
+    }
+
+    .password__caption {
+      align-self: flex-end;
+      font-size: 16px;
+      font-weight: 400;
+      color: #063a5a;
+      margin-top: -16px;
+      text-align: end;
+    }
+  }
+
+  .button__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    button {
+      background-color: transparent;
+      box-shadow: 18px 18px 30px 0px $button-shadow-start,
+        -18px -18px 30px 0px $button-shadow-end;
+
+      &:focus {
+        background: linear-gradient(145deg,
+            $button-focus-start,
+            $button-focus-end );
+        box-shadow: 18px 18px 30px 0px $button-focus-start,
+          -18px -18px 30px 0px $button-focus-end;
+      }
+
+      .p-button-label {
+        color: $button-font-color;
+      }
+    }
+
+    .signup__caption {
+      align-self: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #063a5a;
+      text-align: end;
+    }
+  }
+}

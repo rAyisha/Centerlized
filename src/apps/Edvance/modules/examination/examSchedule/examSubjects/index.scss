@@ -1,0 +1,158 @@
+.subject_list_module {
+    
+
+
+    .profile__input__container{
+       margin: 20px 0px;
+        display: flex;
+        align-items: end;
+    }
+    .button_examshedule{
+        padding: 8px;
+    }
+    .Assign_student_textlayout{
+        color: var(--base-theme-color);
+        padding: 10px;
+    }
+    .export__search__button{
+        display:flex ;
+        gap:10px;
+        background-color: var(--base-theme-color) !important;
+    }
+        .breadcrum_layout {
+            border-bottom: 1px solid #DBDCE6;
+        }
+    
+        .tab__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+    
+            .profile_tab_header {
+                font-size: 20px;
+                color: #263446;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                gap:10px
+            }
+    
+           
+        }
+        .tab__header__buttons__layout {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+    
+            .p-button {
+                background-color: var(--base-theme-color);
+    
+                &.p-button-outlined {
+                    background-color: transparent;
+                    border-color: var(--base-theme-color) !important;
+                }
+            }
+    
+            .p-button-label {
+                font-weight: 400;
+            }
+        }
+        .exam_details_header {
+            display: flex;
+            margin: 32px 0;
+    
+            .exam_details_layout {
+                display: flex;
+                flex-direction: column;
+                font-size: 14px;
+    
+                &.bordered {
+                    border-right: 1px solid #263446;
+                    padding-right: 24px;
+                    margin-right: 16px;
+                }
+    
+                .title {
+                    font-weight: 500;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+        .tab__save__buttons__layout{
+            display: flex;
+            justify-content: flex-end;
+            .p-button:not(:disabled):hover {
+                background: var(--base-theme-color) !important;
+                color: #ffffff;
+                border-color: var(--base-theme-color) !important;
+            }
+            .p-button {
+                margin: 0;
+                display: inline-flex;
+                cursor: pointer;
+                user-select: none;
+                align-items: center;
+                vertical-align: bottom;
+                text-align: center;
+                overflow: hidden;
+                position: relative;
+                background: var(--base-theme-color);
+                border: 1px solid var(--base-theme-color);
+            }
+        }
+    
+        .inputs_card{
+            padding: 16px;
+            border: 1px solid #DBDCE6;
+            border-radius: 8px;
+            margin: 24px 0;
+        }
+        .inputs_addcard{
+            // padding: 8px;
+            // border: 1px solid #DBDCE6;
+            border-radius: 8px;
+            margin: 24px 0;
+        }
+    
+        .p-confirm-dialog {
+            .p-dialog-header {
+                padding: 0.75rem;
+            }
+    
+            .p-button {
+                padding: 0.5rem;
+            }
+    
+            .p-confirm-dialog-reject {
+                color: var(--base-theme-color);
+            }
+    
+            .p-confirm-dialog-accept {
+                background-color: var(--base-theme-color);
+            }
+    
+            .p-button-label {
+                font-weight: 400;
+                font-family: var(--font-family);
+            }
+        }
+        // .p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+        //     margin-left: 1rem;
+        //     font-size: 16px;
+        //     font-weight: 600 !important;
+        //     padding: 0px 3rem 0px 1rem !important;
+        // }
+        .p-overlaypanel {
+            .p-overlaypanel-content {
+                padding: 0 1.25rem;
+    
+                .p-button:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    
+    
+    

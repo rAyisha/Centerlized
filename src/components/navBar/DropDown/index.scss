@@ -1,0 +1,21 @@
+@import "../../../utility/colors.scss";
+
+.dropdown__container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  .p-dropdown{
+    border: 0 solid transparent !important;
+  }
+  .dropdownfield__container .dropdownfield__input .p-dropdown {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px solid var(--base-color);
+    width: 100%;
+    color: #3a3a3a;
+    column-gap: 10px;
+}
+}

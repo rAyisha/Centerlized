@@ -1,0 +1,19 @@
+.mobile__options {
+  .p-menubar {
+    padding: 0;
+    background-color: #edf2ff;
+    a {
+      svg:nth-child(1) {
+        color: var(--base-text-color) !important;
+      }
+    }
+    .p-menubar-root-list {
+      width: auto;
+      padding: 0;
+    }
+    .p-submenu-list {
+      width: auto;
+      padding: 0;
+    }
+  }
+}

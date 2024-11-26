@@ -1,0 +1,65 @@
+.overall_dynamic_master {
+    @import "../../../utility//colors.scss";
+
+    // background-color: red;
+    .form__title {
+        font-size: 24px;
+        font-weight: 600;
+        color: $button-font-color;
+        // text-align: center;
+    }
+
+    .custom_Addbutton {
+        background-color: var(--base-text-color);
+        width: fit-content;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .custom_Addbutton_save {
+        width: fit-content;
+        padding: 10px 20px;
+    }
+
+    .layout_button_dynamic_master {
+        align-items: end;
+        margin: 20px 0px;
+    }
+
+    .suboverall_custom_Addbutton_save {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+
+    .Subheader_valueChanges {
+        margin: 18px 0px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+
+    }
+
+    .suboverall_custom_Addbutton_add {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .deletebutton_added_layout {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .button_shower {
+        justify-content: end;
+        display: flex;
+        margin: 20px 20px 0px 20px;
+        cursor: pointer;
+    }
+
+    .overall_delete_button {}
+}

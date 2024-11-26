@@ -1,0 +1,363 @@
+{
+  "LOGIN_SCREEN": {
+    "HEADER_TEXT": {
+      "MAIN": "ऐप में आपका स्वागत है",
+      "SUBTEXT": "जारी रखने के लिए कृपया लॉगिन करें",
+      "LOGINTITLE": "अपने खाते में लॉगिन करें",
+      "SIGNUPTITLE": "एक खाता बनाएँ"
+    },
+    "FIELDS": {
+      "USERNAME": {
+        "LABEL": "उपयोगकर्ता नाम",
+        "PLACEHOLDER": "अपना उपयोगकर्ता नाम दर्ज करें"
+      },
+      "EMAIL": {
+        "LABEL": "ईमेल",
+        "PLACEHOLDER": "अपना ईमेल दर्ज करें"
+      },
+      "PASSWORD": {
+        "LABEL": "पासवर्ड",
+        "PLACEHOLDER": "अपना पासवर्ड दर्ज करें"
+      }
+    },
+    "BUTTONS": {
+      "LOGIN": "लॉगिन करें",
+      "FORGOT_PASSWORD": "क्या आप अपना पासवर्ड भूल गए?",
+      "SIGNUP": "यहाँ साइन अप करें",
+      "NEW_USER": "पंजीकृत नहीं? एक खाता बनाएँ",
+      "EXIT_USER": "क्या आपका खाता है? यहाँ लॉगिन करें"
+    }
+  },
+  "COMPANY_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "कंपनी पंजीकरण",
+      "SUBTEXT": "कृपया अपनी कंपनी को पंजीकृत करने के लिए नीचे दिए गए विवरण भरें।"
+    },
+    "FIELDS": {
+      "COMPANY_CODE": {
+        "LABEL": "कंपनी कोड",
+        "PLACEHOLDER": "कंपनी कोड दर्ज करें"
+      },
+      "COMPANY_NAME": {
+        "LABEL": "कंपनी का नाम",
+        "PLACEHOLDER": "कंपनी का नाम दर्ज करें"
+      },
+      "DISPLAY_NAME": {
+        "LABEL": "प्रदर्शित नाम",
+        "PLACEHOLDER": "प्रदर्शित नाम दर्ज करें"
+      },
+      "REGISTRATION_NUMBER": {
+        "LABEL": "पंजीकरण संख्या",
+        "PLACEHOLDER": "पंजीकरण संख्या दर्ज करें"
+      },
+      "TAX_IDENTIFICATION_NUMBER": {
+        "LABEL": "कर पहचान संख्या",
+        "PLACEHOLDER": "कर पहचान संख्या दर्ज करें"
+      },
+      "GSTIN": {
+        "LABEL": "जीएसटीआईएन",
+        "PLACEHOLDER": "जीएसटीआईएन दर्ज करें"
+      },
+      "INCORPORATION_DATE": {
+        "LABEL": "संस्थान की तिथि",
+        "PLACEHOLDER": "संस्थान की तिथि चुनें"
+      },
+      "CITY": {
+        "LABEL": "शहर",
+        "PLACEHOLDER": "शहर चुनें"
+      },
+      "STATE": {
+        "LABEL": "राज्य",
+        "PLACEHOLDER": "राज्य चुनें"
+      },
+      "COUNTRY": {
+        "LABEL": "देश",
+        "PLACEHOLDER": "देश चुनें"
+      },
+      "CORPORATE_EMAIL": {
+        "LABEL": "कॉर्पोरेट ईमेल पता",
+        "PLACEHOLDER": "कॉर्पोरेट ईमेल दर्ज करें"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "फोन नंबर",
+        "PLACEHOLDER": "फोन नंबर दर्ज करें"
+      },
+      "WEBSITE_URL": {
+        "LABEL": "वेबसाइट यूआरएल",
+        "PLACEHOLDER": "वेबसाइट यूआरएल दर्ज करें"
+      },
+      "LEGAL_ENTITY_TYPE": {
+        "LABEL": "कानूनी इकाई प्रकार",
+        "PLACEHOLDER": "कानूनी इकाई प्रकार चुनें"
+      },
+      "INDUSTRY": {
+        "LABEL": "उद्योग",
+        "PLACEHOLDER": "उस उद्योग का प्रकार चुनें जिसमें आपकी कंपनी काम करती है"
+      },
+      "PARENT_COMPANY": {
+        "LABEL": "मूल कंपनी",
+        "PLACEHOLDER": "यदि लागू हो, तो मूल कंपनी का नाम दर्ज करें"
+      },
+      "PAN": {
+        "LABEL": "PAN",
+        "PLACEHOLDER": "अपना स्थायी खाता संख्या (PAN) दर्ज करें"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "फैक्स नंबर",
+        "PLACEHOLDER": "अपनी कंपनी का फैक्स नंबर दर्ज करें, यदि उपलब्ध हो"
+      },
+      "CIN": {
+        "LABEL": "CIN",
+        "PLACEHOLDER": "अपनी कॉर्पोरेट पहचान संख्या (CIN) दर्ज करें"
+      },
+      "REGISTERED_ADDRESS": {
+        "LABEL": "पंजीकृत पता",
+        "PLACEHOLDER": "अपनी कंपनी का आधिकारिक पंजीकृत पता दर्ज करें"
+      }
+    }
+  },
+  "BRANCH_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "शाखा पंजीकरण",
+      "SUBTEXT": "कृपया अपनी शाखा पंजीकृत करने के लिए नीचे दी गई जानकारी भरें।"
+    },
+    "FIELDS": {
+      "PARENT_COMPANY": {
+        "LABEL": "मूल कंपनी",
+        "PLACEHOLDER": "मूल कंपनी का चयन करें"
+      },
+      "BRANCH_CODE": {
+        "LABEL": "शाखा कोड",
+        "PLACEHOLDER": "शाखा कोड दर्ज करें"
+      },
+      "BRANCH_NAME": {
+        "LABEL": "शाखा का नाम",
+        "PLACEHOLDER": "शाखा का नाम दर्ज करें"
+      },
+      "BRANCH_HEAD": {
+        "LABEL": "शाखा प्रमुख/प्रबंधक",
+        "PLACEHOLDER": "शाखा प्रमुख का नाम दर्ज करें"
+      },
+      "CONTACT_EMAIL": {
+        "LABEL": "संपर्क ईमेल",
+        "PLACEHOLDER": "संपर्क ईमेल दर्ज करें"
+      },
+      "CONTACT_PHONE": {
+        "LABEL": "संपर्क फोन नंबर",
+        "PLACEHOLDER": "संपर्क फोन नंबर दर्ज करें"
+      },
+      "BRANCH_TYPE": {
+        "LABEL": "शाखा का प्रकार",
+        "PLACEHOLDER": "शाखा का प्रकार चुनें"
+      },
+      "DATE_ESTABLISHED": {
+        "LABEL": "स्थापना तिथि",
+        "PLACEHOLDER": "स्थापना तिथि चुनें"
+      },
+      "BRANCH_ADDRESS": {
+        "LABEL": "शाखा का पता",
+        "PLACEHOLDER": "शाखा का पता दर्ज करें"
+      },
+      "CITY": {
+        "LABEL": "शहर",
+        "PLACEHOLDER": "शहर चुनें"
+      },
+      "STATE": {
+        "LABEL": "राज्य",
+        "PLACEHOLDER": "राज्य चुनें"
+      },
+      "COUNTRY": {
+        "LABEL": "देश",
+        "PLACEHOLDER": "देश चुनें"
+      },
+      "FINANCIAL_YEAR_END": {
+        "LABEL": "वित्तीय वर्ष का अंत",
+        "PLACEHOLDER": "वित्तीय वर्ष का अंत चुनें"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "फैक्स नंबर",
+        "PLACEHOLDER": "फैक्स नंबर दर्ज करें"
+      },
+      "YEAR_TYPE": {
+        "LABEL": "वर्ष प्रकार",
+        "PLACEHOLDER": "वर्ष और प्रकार दर्ज करें"
+      }
+    }
+  },
+  "USER_REGISTRATION_ACCESS": {
+    "HEADER_TEXT": {
+      "MAIN": "उपयोगकर्ता पंजीकरण",
+      "SUBTEXT": "कृपया उपयोगकर्ता को पंजीकृत करने के लिए नीचे विवरण भरें।"
+    },
+    "FIELDS": {
+      "FIRST_NAME": {
+        "LABEL": "पहला नाम",
+        "PLACEHOLDER": "पहला नाम दर्ज करें"
+      },
+      "MIDDLE_NAME": {
+        "LABEL": "मध्य नाम",
+        "PLACEHOLDER": "मध्य नाम दर्ज करें"
+      },
+      "LAST_NAME": {
+        "LABEL": "अंतिम नाम",
+        "PLACEHOLDER": "अंतिम नाम दर्ज करें"
+      },
+      "COMPANY": {
+        "LABEL": "कंपनी",
+        "PLACEHOLDER": "कंपनी का चयन करें"
+      },
+      "PERSONAL_EMAIL": {
+        "LABEL": "व्यक्तिगत ईमेल",
+        "PLACEHOLDER": "व्यक्तिगत ईमेल दर्ज करें"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "फोन नंबर",
+        "PLACEHOLDER": "फोन नंबर दर्ज करें"
+      },
+      "DATE_OF_BIRTH": {
+        "LABEL": "जन्म तिथि",
+        "PLACEHOLDER": "जन्म तिथि का चयन करें"
+      },
+      "WORK_EMAIL": {
+        "LABEL": "कार्य ईमेल",
+        "PLACEHOLDER": "कार्य ईमेल दर्ज करें"
+      },
+      "GENDER": {
+        "LABEL": "लिंग",
+        "PLACEHOLDER": "लिंग का चयन करें"
+      },
+      "BLOOD_GROUP": {
+        "LABEL": "रक्त समूह",
+        "PLACEHOLDER": "रक्त समूह का चयन करें"
+      },
+      "FATHER_NAME": {
+        "LABEL": "पिता का नाम",
+        "PLACEHOLDER": "पिता का नाम दर्ज करें"
+      },
+      "MOTHER_NAME": {
+        "LABEL": "माता का नाम",
+        "PLACEHOLDER": "माता का नाम दर्ज करें"
+      },
+      "MARITAL_STATUS": {
+        "LABEL": "वैवाहिक स्थिति",
+        "PLACEHOLDER": "वैवाहिक स्थिति का चयन करें"
+      },
+      "SPOUSE_NAME": {
+        "LABEL": "पति/पत्नी का नाम",
+        "PLACEHOLDER": "पति/पत्नी का नाम दर्ज करें"
+      },
+      "DEPARTMENT": {
+        "LABEL": "विभाग",
+        "PLACEHOLDER": "विभाग का चयन करें"
+      },
+      "DESIGNATION": {
+        "LABEL": "पद",
+        "PLACEHOLDER": "पद का चयन करें"
+      },
+      "REPORT_TO": {
+        "LABEL": "रिपोर्ट टू",
+        "PLACEHOLDER": "रिपोर्ट टू का चयन करें"
+      },
+      "ACCESS_PARAMETERS": {
+        "HEADER": "एक्सेस पैरामीटर"
+      },
+      "GENERATE_LOGIN_CREDENTIALS": {
+        "LABEL": "लॉगिन क्रेडेंशियल्स जनरेट करें"
+      },
+      "BASE_BRANCH": {
+        "LABEL": "बेस ब्रांच",
+        "PLACEHOLDER": "बेस ब्रांच चुनें"
+      }
+    }
+  },
+  "HEADER_TEXT": {
+    "MAIN": "वर्ष पंजीकरण"
+  },
+  "FIELDS": {
+    "YEAR_TYPE": {
+      "LABEL": "वर्ष का प्रकार",
+      "PLACEHOLDER": "वर्ष का प्रकार चुनें"
+    },
+    "START_DATE": {
+      "LABEL": "प्रारंभ दिनांक",
+      "PLACEHOLDER": "प्रारंभ दिनांक चुनें"
+    },
+    "END_DATE": {
+      "LABEL": "समाप्ति दिनांक",
+      "PLACEHOLDER": "समाप्ति दिनांक चुनें"
+    }
+  },
+  "DYNAMIC_MASTER_FORM": {
+    "HEADER_TEXT": {
+      "MAIN": "मास्टर पंजीकरण"
+    },
+    "FIELDS": {
+      "MASTER_NAME": {
+        "LABEL": "मास्टर नाम",
+        "PLACEHOLDER": "मास्टर नाम दर्ज करें"
+      },
+      "ASSOCIATED_MASTER_NAME": {
+        "LABEL": "संबद्ध मास्टर नाम",
+        "PLACEHOLDER": "संबद्ध मास्टर नाम दर्ज करें"
+      },
+      "VALUE": {
+        "LABEL": "मूल्य",
+        "PLACEHOLDER": "मूल्य दर्ज करें"
+      },
+      "ASSOCIATED_MASTER_VALUE": {
+        "LABEL": "संबद्ध मास्टर मूल्य",
+        "PLACEHOLDER": "संबद्ध मास्टर मूल्य दर्ज करें"
+      }
+    }
+  },
+  "SIDEBAR_NAMES": {
+    "TestModuleDelMe": "टेस्ट मॉड्यूल डेल मी",
+    "TestSubDelMe": "टेस्ट सब डेल मी",
+    "TestDelMe": "टेस्ट डेल मी",
+    "Test2DelMe": "टेस्ट 2 डेल मी",
+    "Test3DelMe": "टेस्ट 3 डेल मी",
+    "TestSub2DelMe": "टेस्ट सब 2 डेल मी",
+    "TestX2DelMe": "टेस्ट एक्स 2 डेल मी",
+    "TestX3DelMe": "टेस्ट एक्स 3 डेल मी",
+    "TestX4DelMe": "टेस्ट एक्स 4 डेल मी",
+    "Dashboard": "डैशबोर्ड",
+    "Central Admin": "केंद्रीय प्रशासन",
+    "Company": "कंपनी",
+    "Branch": "शाखा",
+    "Year": "वर्ष",
+    "Users": "उपयोगकर्ता",
+    "Templates": "टेम्प्लेट्स",
+    "Dynamic Master": "गतिशील मास्टर",
+    "Edvance": "एडवांस",
+    "Students": "छात्र",
+    "List Students": "छात्रों की सूची",
+    "Inactive Students": "निष्क्रिय छात्र",
+    "Staffs": "कर्मचारी",
+    "Staff Directory": "कर्मचारी निर्देशिका",
+    "Payroll": "पेरोल",
+    "Inactive Staff": "निष्क्रिय कर्मचारी",
+    "Leaves": "अवकाश",
+    "Academics": "अकादमिक",
+    "My Class": "मेरी कक्षा",
+    "Class Timetable": "कक्षा समय सारिणी",
+    "Teacher Timetable": "शिक्षक समय सारिणी",
+    "Assign Teacher": "शिक्षक नियुक्त करें",
+    "Attendance": "उपस्थिति",
+    "Homework": "गृहकार्य",
+    "Promote Students": "छात्रों को पदोन्नत करें",
+    "Assign Students": "छात्रों को सौंपें",
+    "Exams": "परीक्षाएं",
+    "WorkFlow": "कार्य प्रवाह",
+    "Notifications": "सूचनाएं"
+  },
+  "BUTTONS": {
+    "LOGIN": "लॉगिन करें",
+    "FORGOT_PASSWORD": "क्या आप अपना पासवर्ड भूल गए?",
+    "SIGNUP": "यहाँ साइन अप करें",
+    "NEW_USER": "पंजीकृत नहीं? एक खाता बनाएँ",
+    "EXIT_USER": "क्या आपका खाता है? यहाँ लॉगिन करें",
+    "SUBMIT": "सबमिट करें",
+    "UPDATE": "अपडेट करें",
+    "BACK": "वापस"
+  }
+}

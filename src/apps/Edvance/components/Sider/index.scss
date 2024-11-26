@@ -1,0 +1,14 @@
+.overall__dialog_importdetails {
+  //   background-color: red;
+  height: 100vh;
+  //   padding: 1rem;
+  .inneroverall__dialog_importdetails {
+    height: 100%;
+    padding: 0rem 0.5rem 1.5rem;
+    //  background-color: aqua;
+    overflow-y: auto;
+  }
+}
+.p-dialog {
+  max-height: 95% !important;
+}

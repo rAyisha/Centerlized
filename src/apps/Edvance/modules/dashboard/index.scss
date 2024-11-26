@@ -1,0 +1,37 @@
+.dashboard {
+  
+    .dashboard__title {
+        color: #263446;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Poppins";
+        font-weight: 500;
+    }
+    .dashboard__sub__title {
+        color: #263446;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: "Poppins";
+        font-weight: 500;
+    }
+    .dashboard__body {
+        display: flex;
+        justify-content: space-between;
+        .dashboard__body__right {
+            width: 70%;
+            .barchart__container{
+                display: flex;
+                justify-content: space-between;
+                .barchart__container__right{
+                    width: 49%;
+                }
+                .barchart__container__left{
+                    width: 49%;
+                }
+            }
+        }
+        .dashboard__body__left {
+            width: 28%;
+        }
+    }
+}

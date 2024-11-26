@@ -1,0 +1,22 @@
+@import "../../utility/colors";
+
+.checkbox__component {
+    color: $dimgray;
+    font-size: 14px;
+    font-weight: 500;
+
+    input[type="radio"] {
+        height: 16px;
+        width: 16px;
+        accent-color: $cobalt;
+    }
+    .checkbox__label{
+        font-size: 16px;
+        font-weight: 400;
+        color: $font-color;
+  
+        &.disabled {
+          color: $font-inactive-color;
+        }
+    }
+}

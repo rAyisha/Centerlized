@@ -1,0 +1,71 @@
+.header__Assing__students{
+    .header_title {
+        color: #263446;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Poppins";
+        font-weight: 500;
+    }
+    .horizontal__line {
+        border-style: solid;
+        border-width: 1px 0 0 0;
+        border-color: #dbdce6;
+        margin: 3rem 0rem !important;
+      }
+      .tab__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .dropdown__layout {
+          width: 33%;
+        }
+    
+        .p-input-icon-left {
+          display: flex;
+          align-items: center;
+          border: 1px solid var(--base-color);
+          border-radius: 8px;
+          padding-left: 16px;
+    
+          .pi {
+            position: static;
+            margin-top: 1px;
+          }
+        }
+    
+        .inputfield__container {
+          flex: 1;
+    
+          input {
+            border: none;
+          }
+        }
+    
+        .export__butt__overall {
+          border-radius: 8px;
+          gap: 10px;
+        }
+    
+        .tab__header__buttons__layout {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+    
+          span.selected__view {
+            border-bottom: 2px solid #000;
+          }
+    
+          .tab__header__buttons__layout__hr {
+            height: 30px;
+            background-color: #d7d9de;
+          }
+        }
+      }
+    .btn_layout{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+}

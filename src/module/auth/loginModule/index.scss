@@ -1,0 +1,44 @@
+@import "../../../utility/colors.scss";
+.login__main__container {
+  height: 100vh;
+  width: 100vw;
+  background-color: $common-bg;
+  overflow-y: scroll;
+  .login__main__grid {
+    height: 100%;
+    .login__left__container {
+      background-color: transparent;
+      background-image: url("../../../assets/images/Sky-bg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .logo__container{
+      display: flex;
+      justify-content: space-between;
+    }
+    .image__controller {
+      padding: 16px 0;
+    }
+    .login__right__container {
+      align-self: center;
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .login__main__container {
+    .login__main__grid {
+      height: auto !important;
+    }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .login__main__container {
+    .logo__container {
+      padding: 0 32px !important;
+    }
+  }
+}

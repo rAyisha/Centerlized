@@ -1,0 +1,41 @@
+@import "../../../../utility/colors.scss";
+.custom__carousel {
+  .p-carousel-indicators {
+    .p-carousel-indicator {
+      button {
+        border-radius: 4px;
+        height: 4px;
+        width: 12px;
+        background-color: $carousel-inactive-color;
+      }
+    }
+    .p-highlight {
+      button {
+        border-radius: 4px;
+        height: 4px;
+        width: 24px;
+        background-color: $button-font-color;
+      }
+    }
+  }
+  .p-carousel-container {
+    .p-link {
+      margin: 0;
+    }
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .custom__carousel {
+    .carousel__container {
+      padding: 0 32px;
+    }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .custom__carousel {
+    .p-carousel-container {
+      column-gap: 48px;
+      padding: 0 32px;
+    }
+  }
+}

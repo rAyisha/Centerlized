@@ -1,0 +1,128 @@
+@import "../../utility/colors.scss";
+
+.calender__container {
+  .calender__label__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .calender__input {
+    .p-calendar {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--base-theme-color);
+      position: relative;
+      display: inline-flex;
+      max-width: 100%;
+      width: 100%;
+      background-color: transparent;
+      &.p-calendar-disabled{
+        opacity: 0.6;
+      }
+      &.invalid {
+        border: 1px solid $darkRed;
+      }
+
+      &.readonly {
+        .p-inputtext,
+        .p-button {
+          border-color: $font-color;
+
+          &::placeholder {
+            color: $font-inactive-color;
+          }
+        }
+
+        .p-disabled {
+          opacity: 1;
+        }
+      }
+
+      .p-icon {
+        display: none;
+      }
+    }
+
+    .p-inputtext {
+      background-color: $field-bg-color;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: 400;
+      border: 0 !important;
+      width: 100%;
+      border-radius: 12px 0 0 12px;
+      &::placeholder {
+        color: $font-inactive-color;
+      }
+
+      &:disabled {
+        color: $font-inactive-color;
+        background: transparent;
+
+        &::placeholder {
+          color: $font-inactive-color;
+        }
+      }
+
+      &:focus,
+      &:focus + .p-button {
+        outline: none;
+        border-color: $font-color;
+        cursor: $font-color;
+        box-shadow: none;
+      }
+
+      &:not(:placeholder-shown),
+      &:not(:placeholder-shown) + .p-button {
+        border-color: $font-color;
+        color: $font-color;
+      }
+
+      &.invalid {
+        border-color: $darkRed;
+        color: $darkRed;
+
+        &::placeholder {
+          color: $darkRed;
+        }
+      }
+    }
+
+    .p-button {
+      // background: transparent;
+      background-color: $field-bg-color;
+      border: 1px solid $font-color;
+      padding: 12px 8px;
+      border-radius: 0 12px 12px 0;
+      border-width: 0;
+      border-color: $lightgrey;
+    }
+  }
+  // .master__datepicker .p-inputtext {
+  //   background-color: #ecf0f3;
+  // }
+  // .master__datepicker .p-button {
+  //   background-color: #ecf0f3;
+  // }
+
+  .error__view {
+    color: $darkRed;
+    font-size: 16px;
+  }
+
+  .label__important {
+    color: $red;
+  }
+
+  .calender__label__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: $font-color;
+
+    &.disabled {
+      color: $font-inactive-color;
+    }
+  }
+}

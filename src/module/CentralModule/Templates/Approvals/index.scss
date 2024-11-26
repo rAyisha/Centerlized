@@ -1,0 +1,11 @@
+@import "../../../../utility//colors.scss";
+
+.approval__main__container {
+    .form__header__area {
+        .form__title {
+            font-size: 24px;
+            font-weight: 600;
+            color: $button-font-color;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.view__payroll {
+    .profile__layout {
+      display: flex;
+      gap: 1.5rem;
+      border: 1px solid #dbdce6;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+  
+      .staff__name {
+        color: #263446;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 30px;
+      }
+      .card__right__border {
+        border-right: 1px solid #dbdce6;
+      }
+  
+      .staff__id {
+        color: #80889e;
+        font-size: 14px;
+        font-size: 500;
+        line-height: 21px;
+      }
+    }
+  
+    .input__group__layout {
+      margin-top: 20px;
+      .input__group__layout__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+  
+        .pi-plus {
+          background-color: #4360e4;
+          color: #ffffff;
+          border-radius: 50%;
+          padding: 0.25rem;
+          cursor: pointer;
+        }
+      }
+  
+      .p-inputgroup {
+        padding: 0;
+        margin-top: 0.5rem;
+  
+        .p-inputgroup-addon {
+          background-color: transparent !important;
+          width: 20%;
+          padding: 0;
+  
+          .p-inputtext {
+            border: none;
+  
+            &:disabled {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  
+    .border__container {
+      border: 1px solid #dbdce6;
+      margin-top: 20px;
+      border-radius: 0.5rem;
+      .border__label{
+          font-size: 16px;
+          font-weight: 500;
+          color: #263446;
+      }
+    }
+    .form__inputs__container {
+      margin-top: 20px;
+      position: relative;
+  
+      .label__left {
+        position: absolute;
+        bottom: 25%;
+        left: 8px;
+      }
+      .p-inputtext {
+        text-align: right;
+        color: #727b91;
+        font-weight: 500;
+  
+        &:disabled {
+          opacity: 1;
+        }
+      }
+  
+      &.deduction,
+      &.earning {
+        .p-inputtext {
+          text-align: left;
+        }
+      }
+      // &.netSalary{
+      //     .p-inputtext{
+      //         color: #31AD76;
+      //     }
+      // }
+    }
+  }
+  

@@ -1,0 +1,40 @@
+.overall__message {
+  .messageto__radio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+     gap: 2px;
+     flex-wrap: wrap;
+  }
+  .overall__message__head {
+    font-size: 16px;
+    font-weight: 500;
+    color: #263446;
+    margin-top: 16px;
+  }
+  .overall__message__button{
+    // background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100px;
+    gap:10px;
+    .overall__outlined__button{
+        font-size: 16px;
+        font-weight: 500;
+        color: #4360E4;
+        border-color:#4360E4 ;
+        font-family: 'Poppins';
+        padding: 6px 16px;
+    }
+    .overall__save__button{
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        background-color:#4360E4 ;
+        font-family: 'Poppins';
+        padding: 6px 16px;
+    }
+  }
+}

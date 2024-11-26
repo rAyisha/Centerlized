@@ -1,0 +1,25 @@
+.linechart__with__barchart__container {
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 40% !important;
+    .linechart__with__barchart__container__inner__layout {
+        padding: 1rem;
+        height: 30%;
+    }
+    .linechart__with__barchart__layout {
+        height: 70%;
+        padding: 1rem;
+        canvas {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+    .title{
+        color: #263446;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: "Poppins";
+        font-weight: 500;
+       }
+}

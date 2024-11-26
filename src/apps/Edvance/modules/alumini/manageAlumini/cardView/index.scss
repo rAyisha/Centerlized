@@ -1,0 +1,51 @@
+.card__layout__alumni_manage_container {
+  .card__layout__cardview {
+    height: 100%;
+    display: flex;
+    gap: 1.5rem;
+    padding: 16px;
+    border: 1px solid #d7d9de;
+    border-radius: 0.5rem;
+
+    .p-image {
+      width: 15%;
+
+      img {
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+    }
+
+    .staff__name {
+      color: #1b2150;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    .card__text {
+      color: #6c757d;
+      font-size: 0.875rem;
+      font-weight: 400;
+    }
+
+    .role__layout {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+
+      div {
+        background-color: #cdd7f8;
+        color: #3d5ee1;
+        width: 47%;
+        text-align: center;
+        padding: 0.25rem 0;
+        border-radius: 0.25rem;
+      }
+    }
+  }
+  .overall_paginator{
+    // background-color: red;
+    width: 100%;
+  }
+}

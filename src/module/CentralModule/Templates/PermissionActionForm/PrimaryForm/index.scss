@@ -1,0 +1,42 @@
+.primary__template__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .module__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .table__main {
+    width: 100%;
+    .table__header {
+      text-align: justify;
+    }
+  }
+  .overall_header{
+    // background-color: red;
+  }
+}
+.overall_accordian_content{
+  // background-color: aquamarine;
+  .checkbox_layout{
+    display: flex;
+    justify-content: space-around;
+  }
+  .subheader_layout{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    /* font-family: 'Poppins'; */
+    color: #000;
+  }
+  .cardwise_layout{
+    margin: 10px 0px;
+  }
+  .header_overlayout{
+    display: grid;
+  }
+  .header_checkbox{
+    // display: flex;
+    // justify-self: self-end;
+  }
+}

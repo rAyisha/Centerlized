@@ -1,0 +1,44 @@
+.student__file__upload__drag {
+    .student__file__uploade__drag__label {
+      color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+    }
+    .student__file__uploade {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #fff;
+      border: 1px solid var(--base-theme-color);
+      padding: 16px;
+      border-radius: 8px;
+    }
+    .student__file__uploade__drog{
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--base-theme-color);
+    }
+    .student__file__uploade__browse{
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--base-theme-color);
+    }
+  
+    .student__file__uploade label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      gap:4px
+    }
+  
+    .student__file__uploade input[type="file"] {
+      display: none;
+    }
+  }
+  

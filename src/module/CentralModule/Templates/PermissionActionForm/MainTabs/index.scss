@@ -1,0 +1,44 @@
+.permission_layout {
+    position: relative;
+    margin-top: 2%;
+    .navtabs {
+        display: flex;
+        // justify-content: center;/\
+        position: relative;
+        overflow: scroll;
+      }
+      
+      .navtab {
+        margin: 0 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        color: #333;
+        transition: color 0.3s;
+        position: relative;
+      }
+      
+      .navtab.active {
+        color: #007BFF;
+        font-weight: 600;
+      }
+      
+      .underline {
+        position: absolute;
+        height: 2px;
+        background: #007BFF;
+        transition: left 0.3s ease, width 0.3s ease;
+        bottom: 0;
+      }
+      .content {
+        display: none;
+      }
+      
+      .content.active {
+        display: block;
+      }
+      .emty{
+        text-align: center;
+        width: 100%;
+      }
+  
+}

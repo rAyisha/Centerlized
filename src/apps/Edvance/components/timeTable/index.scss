@@ -1,0 +1,66 @@
+.overAll_period__card {
+
+    .text_Monday {
+        color: var(--base-text-inactive-color);
+    }
+
+    .card_data {
+        border-radius: 16px;
+        margin-top: 12px;
+      border: 1px solid #DBDCE6;
+    }
+
+    .p-card {
+        box-shadow: none;
+
+        .p-card-body {
+            padding: 0 !important;
+        }
+    }
+
+    .text_period {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-weight: 500;
+    }
+
+    .subject_key {
+        padding: 0.45rem 0.95rem;
+        font-weight: 500;
+
+        .text_subject {
+            color: var(--base-text-inactive-color);
+            font-size: 14px;
+            font-weight: 400;
+            text-align: end;
+        }
+
+        .text_subject_value {
+            color: var(--base-text-inactive-color);
+            font-size: 14px;
+            font-weight: 300;
+            text-align: end;
+        }
+    }
+}
+.timetable-container {
+    width: 100%;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+      }
+    }
+    .break-row{
+        background-color: #ddd;
+    }
+  }
+  

@@ -1,0 +1,102 @@
+@import "../../utility/them.scss";
+.sidebar__sub__container {
+  height: 100%;
+  .logo__container {
+    height: 8%;
+    .full__image__controller {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      img {
+        width: 52%;
+      }
+    }
+    .full__image__controller.collapsed {
+      display: none;
+    }
+
+    .half__image__controller {
+      display: none;
+    }
+    .half__image__controller.collapsed {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+      padding: 0.5rem;
+
+      img {
+        width: 60%;
+      }
+    }
+  }
+  .sidebar__menu__controller{
+    background-color: var(--base-color);
+    // height: 92%;
+    min-height: 92%;
+    border-radius: 0px 16px 16px 0px;
+    padding-top: 1.5rem;
+    height: 92%;
+    overflow-y: auto;
+  .sidebar__list {
+    padding: 0 16px;
+    // background-color: var(--base-color);
+    // height: 92%;
+    // min-height: 92%;
+    // border-radius: 0px 16px 16px 0px;
+    // padding: 0 16px;
+    .main__menu__list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+      // padding-top: 88px;
+      .active__menu {
+        background-color: var(--base-bg-color);
+        color: var(--base-text-color);
+      }
+      .inactive__menu {
+        background-color: transparent;
+        color: var(--base-text-inactive-color);
+      }
+      .menu__list {
+        display: flex;
+        column-gap: 8px;
+        align-items: center;
+        border-radius: 12px;
+        padding: 12px 16px;
+        text-decoration: none;
+overflow-x: hidden;
+        .icon__controller {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .menu__title {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 18px;
+          transition: opacity 0.3s ease, visibility 0.3s ease;
+          text-wrap: nowrap;
+        }
+        .menu__title.collapsed {
+          display: none;
+          // visibility: hidden;
+        }
+        .icon_down{
+          transform: rotate(90deg);
+        }
+      }
+      // .submenu_list{
+
+      // }
+    }
+  }
+}
+  // .sidebar__list.collapsed {
+  //   width: max-content;
+  // }
+}

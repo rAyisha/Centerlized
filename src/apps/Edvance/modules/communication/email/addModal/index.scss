@@ -1,0 +1,65 @@
+.email_list_modal {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .form__inputs__label__container {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 8px;
+    .form__inputs__text {
+      color: #1e293b;
+      font-family: "Poppins";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      // width: 90%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 21px;
+    }
+    .label__important {
+      color: red;
+    }
+  }
+  .editor_controller {
+    margin: 16px 0;
+  }
+  .form__inputs__container,
+  .form__dropdwon__container {
+    margin-bottom: 1rem;
+
+    textarea {
+      margin-top: 0.5rem;
+    }
+  }
+
+  .buttons_layout {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 2rem;
+
+    .p-button {
+      background-color: #4360e4;
+      padding: 10px 16px;
+
+      .p-button-label {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      &.p-button-outlined {
+        background: none;
+
+        .p-button-label {
+          color: #4360e4;
+        }
+      }
+    }
+  }
+}

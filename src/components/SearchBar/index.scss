@@ -1,0 +1,95 @@
+@import "../../utility/colors";
+
+.search__layout {
+  .search__export__layout {
+    display: flex;
+    .search__view {
+      background-color: #f8f8f8;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 24px;
+      border-radius: 6px;
+
+      input {
+        flex: 1;
+        border: none;
+        background: transparent;
+        color: #636363;
+        padding: 8px 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        &:focus {
+          outline: none;
+        }
+        &::placeholder {
+          color: #636363;
+        }
+      }
+      .search__icon{
+        padding: 4px;
+      }
+    }
+
+    .p-button {
+      overflow: visible;
+    }
+  }
+}
+// .search__layout {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   position: relative;
+
+//   .search__export__layout {
+//     display: flex;
+//     align-items: center;
+//     transition: all 0.3s ease-in-out;
+
+//     // Mobile view styles
+//     .search__view {
+//       display: flex;
+//       align-items: center;
+//       transition: all 0.3s ease-in-out;
+
+//       .search__input {
+//         width: 0;
+//         opacity: 0;
+//         transition: all 0.3s ease-in-out;
+//         border: none;
+//         background-color: transparent;
+//         padding: 0;
+//       }
+
+//       .search__icon {
+//         cursor: pointer;
+//       }
+
+//       &.active .search__input {
+//         width: 200px; // Expanded width for mobile
+//         opacity: 1;
+//         border: 1px solid #ccc;
+//         padding: 5px;
+//         background-color: #fff;
+//       }
+//     }
+//   }
+
+//   // Desktop view styles
+//   @media (min-width: 768px) {
+//     .search__export__layout {
+//       .search__view {
+//         .search__input {
+//           width: 200px; // Full width for desktop
+//           opacity: 1;
+//           padding: 5px;
+//           border: 1px solid #ccc;
+//           background-color: #fff;
+//         }
+//       }
+//     }
+//   }
+// }

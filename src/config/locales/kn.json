@@ -1,0 +1,365 @@
+{
+  "LOGIN_SCREEN": {
+    "HEADER_TEXT": {
+      "MAIN": "ಆಪ್‌ಗೆ ಸ್ವಾಗತ",
+      "SUBTEXT": "ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ",
+      "LOGINTITLE": "ನಿಮ್ಮ ಖಾತೆಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+      "SIGNUPTITLE": "ಖಾತೆಯನ್ನು ರಚಿಸಿ"
+    },
+    "FIELDS": {
+      "USERNAME": {
+        "LABEL": "ಬಳಕೆದಾರರ ಹೆಸರು",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಬಳಕೆದಾರರ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "EMAIL": {
+        "LABEL": "ಇಮೇಲ್",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಇಮೇಲ್ನ್ನು ನಮೂದಿಸಿ"
+      },
+      "PASSWORD": {
+        "LABEL": "ಪಾಸ್ವರ್ಡ್",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ನ್ನು ನಮೂದಿಸಿ"
+      }
+    },
+    "BUTTONS": {
+      "LOGIN": "ಲಾಗಿನ್",
+      "FORGOT_PASSWORD": "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?",
+      "SIGNUP": "ಇಲ್ಲಿ ದಾಖಲು ಮಾಡಿಕೊಳ್ಳಿ",
+      "NEW_USER": "ಖಾತೆ ಇಲ್ಲವೆ? ಖಾತೆ ಉಂಟುಮಾಡಿ",
+      "EXIT_USER": "ಖಾತೆ ಇದೆಯಾ? ಇಲ್ಲಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ"
+    }
+  },
+  "COMPANY_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "ಕಂಪನಿ ನೋಂದಣಿ",
+      "SUBTEXT": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಂಪನಿಯನ್ನು ನೋಂದಾಯಿಸಲು ಕೆಳಗಿನ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ."
+    },
+    "FIELDS": {
+      "COMPANY_CODE": {
+        "LABEL": "ಕಂಪನಿಯ ಕೋಡ್",
+        "PLACEHOLDER": "ಕಂಪನಿಯ ಕೋಡ್ ಅನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "COMPANY_NAME": {
+        "LABEL": "ಕಂಪನಿಯ ಹೆಸರು",
+        "PLACEHOLDER": "ಕಂಪನಿಯ ಹೆಸರನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "DISPLAY_NAME": {
+        "LABEL": "ಪ್ರದರ್ಶನ ಹೆಸರು",
+        "PLACEHOLDER": "ಪ್ರದರ್ಶನ ಹೆಸರನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "REGISTRATION_NUMBER": {
+        "LABEL": "ನೋಂದಣಿ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ನೋಂದಣಿ ಸಂಖ್ಯೆಯನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "TAX_IDENTIFICATION_NUMBER": {
+        "LABEL": "ಕಾಯ್ದು ಗುರುತಿಸುವ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ಕಾಯ್ದು ಗುರುತಿಸಲು ಸಂಖ್ಯೆಯನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "GSTIN": {
+        "LABEL": "ಜಿಎಸ್ಟಿಐಎನ್",
+        "PLACEHOLDER": "ಜಿಎಸ್ಟಿಐಎನ್ನ ದಾಖಲಿಸಿ"
+      },
+      "INCORPORATION_DATE": {
+        "LABEL": "ಸ್ಥಾಪನಾ ದಿನಾಂಕ",
+        "PLACEHOLDER": "ಸ್ಥಾಪನಾ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "CITY": {
+        "LABEL": "ನಗರ",
+        "PLACEHOLDER": "ನಗರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "STATE": {
+        "LABEL": "ರಾಜ್ಯ",
+        "PLACEHOLDER": "ರಾಜ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "COUNTRY": {
+        "LABEL": "ದೇಶ",
+        "PLACEHOLDER": "ದೇಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "CORPORATE_EMAIL": {
+        "LABEL": "ಕಂಪನಿಯ ಇಮೇಲ್ ವಿಳಾಸ",
+        "PLACEHOLDER": "ಕಂಪನಿಯ ಇಮೇಲ್ ಅನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ದಾಖಲಿಸಿ"
+      },
+      "WEBSITE_URL": {
+        "LABEL": "ವೆಬ್‌ಸೈಟ್ URL",
+        "PLACEHOLDER": "ವೆಬ್‌ಸೈಟ್ URL ಅನ್ನು ದಾಖಲು ಮಾಡಿ"
+      },
+      "LEGAL_ENTITY_TYPE": {
+        "LABEL": "ಕಾನೂನು_entity",
+        "PLACEHOLDER": "ಕಾನೂನು_entity ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "INDUSTRY": {
+        "LABEL": "ಉದ್ಯಮ",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಕಂಪನಿಯ ಕಾರ್ಯ ನಿರ್ವಹಿಸುತ್ತಿರುವ ಉದ್ಯಮದ ಮಾದರಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "PARENT_COMPANY": {
+        "LABEL": "ಪೋಷಕ ಕಂಪನಿ",
+        "PLACEHOLDER": "ಅಗತ್ಯವಿದ್ದರೆ ಪೋಷಕ ಕಂಪನಿಯ ಹೆಸರನ್ನು ಹಾಕಿ"
+      },
+      "PAN": {
+        "LABEL": "PAN",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಶಾಶ್ವತ ಖಾತೆ ಸಂಖ್ಯೆಯನ್ನು (PAN) ಹಾಕಿ"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "ಫ್ಯಾಕ್ಸ್ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಕಂಪನಿಯ ಫ್ಯಾಕ್ಸ್ ಸಂಖ್ಯೆಯನ್ನು ಹಾಕಿ"
+      },
+      "CIN": {
+        "LABEL": "CIN",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಕಾರ್ಪೊರೇಟ್ ಐಡಂಟಿಟಿ ಸಂಖ್ಯೆಯನ್ನು (CIN) ಹಾಕಿ"
+      },
+      "REGISTERED_ADDRESS": {
+        "LABEL": "ನೋಂದಾಯಿತ ವಿಳಾಸ",
+        "PLACEHOLDER": "ನಿಮ್ಮ ಕಂಪನಿಯ ಅಧಿಕೃತ ನೋಂದಾಯಿತ ವಿಳಾಸವನ್ನು ಹಾಕಿ"
+      }
+    }
+  },
+  "BRANCH_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "ಶಾಖೆ ನೋಂದಣಿ",
+      "SUBTEXT": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶಾಖೆಯನ್ನು ನೋಂದಾಯಿಸಲು ಕೆಳಗಿನ ವಿವರಗಳನ್ನು ಭರ್ತಿಮಾಡಿ."
+    },
+    "FIELDS": {
+      "PARENT_COMPANY": {
+        "LABEL": "ಮೂಲ ಸಂಸ್ಥೆ",
+        "PLACEHOLDER": "ಮೂಲ ಸಂಸ್ಥೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "BRANCH_CODE": {
+        "LABEL": "ಶಾಖೆ ಕೋಡ್",
+        "PLACEHOLDER": "ಶಾಖೆ ಕೋಡ್ ನಮೂದಿಸಿ"
+      },
+      "BRANCH_NAME": {
+        "LABEL": "ಶಾಖೆಯ ಹೆಸರು",
+        "PLACEHOLDER": "ಶಾಖೆಯ ಹೆಸರು ನಮೂದಿಸಿ"
+      },
+      "BRANCH_HEAD": {
+        "LABEL": "ಶಾಖೆ ಮುಖ್ಯಸ್ಥ/ಮ್ಯಾನೇಜರ್",
+        "PLACEHOLDER": "ಶಾಖೆ ಮುಖ್ಯಸ್ಥನ ಹೆಸರು ನಮೂದಿಸಿ"
+      },
+      "CONTACT_EMAIL": {
+        "LABEL": "ಸಂಪರ್ಕ ಇಮೇಲ್",
+        "PLACEHOLDER": "ಸಂಪರ್ಕ ಇಮೇಲ್ ನಮೂದಿಸಿ"
+      },
+      "CONTACT_PHONE": {
+        "LABEL": "ಸಂಪರ್ಕ ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ಸಂಪರ್ಕ ದೂರವಾಣಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
+      },
+      "BRANCH_TYPE": {
+        "LABEL": "ಶಾಖೆ ಪ್ರಕಾರ",
+        "PLACEHOLDER": "ಶಾಖೆ ಪ್ರಕಾರ ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "DATE_ESTABLISHED": {
+        "LABEL": "ಸ್ಥಾಪನೆ ದಿನಾಂಕ",
+        "PLACEHOLDER": "ಸ್ಥಾಪನೆ ದಿನಾಂಕ ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "BRANCH_ADDRESS": {
+        "LABEL": "ಶಾಖೆಯ ವಿಳಾಸ",
+        "PLACEHOLDER": "ಶಾಖೆಯ ವಿಳಾಸ ನಮೂದಿಸಿ"
+      },
+      "CITY": {
+        "LABEL": "ನಗರ",
+        "PLACEHOLDER": "ನಗರ ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "STATE": {
+        "LABEL": "ರಾಜ್ಯ",
+        "PLACEHOLDER": "ರಾಜ್ಯ ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "COUNTRY": {
+        "LABEL": "ದೇಶ",
+        "PLACEHOLDER": "ದೇಶ ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "FINANCIAL_YEAR_END": {
+        "LABEL": "ಹಣಕಾಸು ವರ್ಷದ ಅಂತ್ಯ",
+        "PLACEHOLDER": "ಹಣಕಾಸು ವರ್ಷದ ಅಂತ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "ಫ್ಯಾಕ್ಸ್ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ಫ್ಯಾಕ್ಸ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
+      },
+      "YEAR_TYPE": {
+        "LABEL": "ವರ್ಷ ಪ್ರಕಾರ",
+        "PLACEHOLDER": "ವರ್ಷ ಮತ್ತು ಪ್ರಕಾರವನ್ನು ನಮೂದಿಸಿ"
+      }
+    }
+  },
+  "USER_REGISTRATION_ACCESS": {
+    "HEADER_TEXT": {
+      "MAIN": "ಬಳಕೆದಾರ ಪ್ರವೇಶ ನೋಂದಣಿ",
+      "SUBTEXT": "ಬಳಕೆದಾರರನ್ನು ನೋಂದಾಯಿಸಲು ಕೆಳಗಿನ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ."
+    },
+    "FIELDS": {
+      "FIRST_NAME": {
+        "LABEL": "ಮೊದಲ ಹೆಸರು",
+        "PLACEHOLDER": "ಮೊದಲ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "MIDDLE_NAME": {
+        "LABEL": "ಮಧ್ಯದ ಹೆಸರು",
+        "PLACEHOLDER": "ಮಧ್ಯದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "LAST_NAME": {
+        "LABEL": "ಕೊನೆಯ ಹೆಸರು",
+        "PLACEHOLDER": "ಕೊನೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "COMPANY": {
+        "LABEL": "ಕಂಪನಿ",
+        "PLACEHOLDER": "ಕಂಪನಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "PERSONAL_EMAIL": {
+        "LABEL": "ವೈಯಕ್ತಿಕ ಇಮೇಲ್",
+        "PLACEHOLDER": "ವೈಯಕ್ತಿಕ ಇಮೇಲ್ ನಮೂದಿಸಿ"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+        "PLACEHOLDER": "ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+      },
+      "DATE_OF_BIRTH": {
+        "LABEL": "ಹುಟ್ತಿದ ದಿನಾಂಕ",
+        "PLACEHOLDER": "ಹುಟ್ತಿದ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "WORK_EMAIL": {
+        "LABEL": "ಕೆಲಸದ ಇಮೇಲ್",
+        "PLACEHOLDER": "ಕೆಲಸದ ಇಮೇಲ್ ನಮೂದಿಸಿ"
+      },
+      "GENDER": {
+        "LABEL": "ಲಿಂಗ",
+        "PLACEHOLDER": "ಲಿಂಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "BLOOD_GROUP": {
+        "LABEL": "ರಕ್ತದ ಗುಂಪು",
+        "PLACEHOLDER": "ರಕ್ತದ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "FATHER_NAME": {
+        "LABEL": "ತಂದೆಯ ಹೆಸರು",
+        "PLACEHOLDER": "ತಂದೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "MOTHER_NAME": {
+        "LABEL": "ತಾಯಿಯ ಹೆಸರು",
+        "PLACEHOLDER": "ತಾಯಿಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "MARITAL_STATUS": {
+        "LABEL": "ವೈವಾಹಿಕ ಸ್ಥಿತಿ",
+        "PLACEHOLDER": "ವೈವಾಹಿಕ ಸ್ಥಿತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "SPOUSE_NAME": {
+        "LABEL": "ಜೋಡಿಯ ಹೆಸರು",
+        "PLACEHOLDER": "ಜೋಡಿಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "DEPARTMENT": {
+        "LABEL": "ವಿಭಾಗ",
+        "PLACEHOLDER": "ವಿಭಾಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "DESIGNATION": {
+        "LABEL": "ಹುದ್ದೆ",
+        "PLACEHOLDER": "ಹುದ್ದೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "REPORT_TO": {
+        "LABEL": "ವರದಿ ಸಲ್ಲಿಸು",
+        "PLACEHOLDER": "ವರದಿ ಸಲ್ಲಿಸಲು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "ACCESS_PARAMETERS": {
+        "HEADER": "ಪ್ರವೇಶ ಪರಿಮಾಣಗಳು"
+      },
+      "GENERATE_LOGIN_CREDENTIALS": {
+        "LABEL": "ಲಾಗಿನ್ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಉತ್ಪಾದಿಸಿ"
+      },
+      "BASE_BRANCH": {
+        "LABEL": "ಅಡಿಪಾಯ ಶಾಖೆ",
+        "PLACEHOLDER": "ಅಡಿಪಾಯ ಶಾಖೆ ಆಯ್ಕೆ ಮಾಡಿ"
+      }
+    }
+  },
+  "YEAR_TYPE": {
+    "HEADER_TEXT": {
+      "MAIN": "ವರ್ಷ ನೋಂದಣಿ"
+    },
+    "FIELDS": {
+      "YEAR_TYPE": {
+        "LABEL": "ವರ್ಷದ ಪ್ರಕಾರ",
+        "PLACEHOLDER": "ವರ್ಷದ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "START_DATE": {
+        "LABEL": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+        "PLACEHOLDER": "ಪ್ರಾರಂಭ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "END_DATE": {
+        "LABEL": "ಅಂತಿಮ ದಿನಾಂಕ",
+        "PLACEHOLDER": "ಅಂತಿಮ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+      }
+    }
+  },
+  "DYNAMIC_MASTER_FORM": {
+    "HEADER_TEXT": {
+      "MAIN": "ಮಾಸ್ಟರ್ ನೋಂದಣಿ"
+    },
+    "FIELDS": {
+      "MASTER_NAME": {
+        "LABEL": "ಮಾಸ್ಟರ್ ಹೆಸರು",
+        "PLACEHOLDER": "ಮಾಸ್ಟರ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "ASSOCIATED_MASTER_NAME": {
+        "LABEL": "ಸಂಬಂಧಿತ ಮಾಸ್ಟರ್ ಹೆಸರು",
+        "PLACEHOLDER": "ಸಂಬಂಧಿತ ಮಾಸ್ಟರ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+      },
+      "VALUE": {
+        "LABEL": "ಮೌಲ್ಯ",
+        "PLACEHOLDER": "ಮೌಲ್ಯ ನಮೂದಿಸಿ"
+      },
+      "ASSOCIATED_MASTER_VALUE": {
+        "LABEL": "ಸಂಬಂಧಿತ ಮಾಸ್ಟರ್ ಮೌಲ್ಯ",
+        "PLACEHOLDER": "ಸಂಬಂಧಿತ ಮಾಸ್ಟರ್ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ"
+      }
+    }
+  },
+  "SIDEBAR_NAMES": {
+    "TestModuleDelMe": "ಟೆಸ್ಟ್ ಮಾಡ್ಯೂಲ್ ಡೆಲ್ ಮಿ",
+    "TestSubDelMe": "ಟೆಸ್ಟ್ ಸಬ್ ಡೆಲ್ ಮಿ",
+    "TestDelMe": "ಟೆಸ್ಟ್ ಡೆಲ್ ಮಿ",
+    "Test2DelMe": "ಟೆಸ್ಟ್ 2 ಡೆಲ್ ಮಿ",
+    "Test3DelMe": "ಟೆಸ್ಟ್ 3 ಡೆಲ್ ಮಿ",
+    "TestSub2DelMe": "ಟೆಸ್ಟ್ ಸಬ್ 2 ಡೆಲ್ ಮಿ",
+    "TestX2DelMe": "ಟೆಸ್ಟ್ X2 ಡೆಲ್ ಮಿ",
+    "TestX3DelMe": "ಟೆಸ್ಟ್ X3 ಡೆಲ್ ಮಿ",
+    "TestX4DelMe": "ಟೆಸ್ಟ್ X4 ಡೆಲ್ ಮಿ",
+    "Dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "Central Admin": "ಕೇಂದ್ರ ಆಡಳಿತ",
+    "Company": "ಕಂಪನಿ",
+    "Branch": "ಶಾಖೆ",
+    "Year": "ವರ್ಷ",
+    "Users": "ಬಳಕೆದಾರರು",
+    "Templates": "ಟೆಂಪ್ಲೇಟುಗಳು",
+    "Dynamic Master": "ಗತಿಶೀಲ ಮಾಸ್ಟರ್",
+    "Edvance": "ಎಡ್ವಾನ್ಸ್",
+    "Students": "ವಿದ್ಯಾರ್ಥಿಗಳು",
+    "List Students": "ವಿದ್ಯಾರ್ಥಿಗಳ ಪಟ್ಟಿಯನ್ನು",
+    "Inactive Students": "ನಿಷ್ಕ್ರಿಯ ವಿದ್ಯಾರ್ಥಿಗಳು",
+    "Staffs": "ಸಿಬ್ಬಂದಿ",
+    "Staff Directory": "ಸಿಬ್ಬಂದಿ ಡೈರೆಕ್ಟರಿ",
+    "Payroll": "ವೇತನಪಟ್ಟಿ",
+    "Inactive Staff": "ನಿಷ್ಕ್ರಿಯ ಸಿಬ್ಬಂದಿ",
+    "Leaves": "ರಜೆಗಳು",
+    "Academics": "ಅಕಾಡೆಮಿಕ್ಸ್",
+    "My Class": "ನನ್ನ ತರಗತಿ",
+    "Class Timetable": "ತರಗತಿ ವೇಳಾಪಟ್ಟಿ",
+    "Teacher Timetable": "ಶಿಕ್ಷಕರ ವೇಳಾಪಟ್ಟಿ",
+    "Assign Teacher": "ಶಿಕ್ಷಕರನ್ನು ನೇಮಿಸಿ",
+    "Attendance": "ಹಾಜರಾತಿ",
+    "Homework": "ಮನೆಯ ಕೆಲಸ",
+    "Promote Students": "ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಪ್ರೋತ್ಸಾಹಿಸಿ",
+    "Assign Students": "ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ನೇಮಿಸಿ",
+    "Exams": "ಪರೀಕ್ಷೆಗಳು",
+    "WorkFlow": "ಕೆಲಸದ ಹಾದಿ",
+    "Notifications": "ಅಧಿಸೂಚನೆಗಳು"
+  },
+  "BUTTONS": {
+    "LOGIN": "ಲಾಗಿನ್",
+    "FORGOT_PASSWORD": "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?",
+    "SIGNUP": "ಇಲ್ಲಿ ದಾಖಲು ಮಾಡಿಕೊಳ್ಳಿ",
+    "NEW_USER": "ಖಾತೆ ಇಲ್ಲವೆ? ಖಾತೆ ಉಂಟುಮಾಡಿ",
+    "EXIT_USER": "ಖಾತೆ ಇದೆಯಾ? ಇಲ್ಲಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "SUBMIT": "ಸಲ್ಲಿಸಲು",
+    "UPDATE": "ಅಪ್ಡೇಟ್",
+    "BACK": "ಮತ್ತೆ"
+  }
+}

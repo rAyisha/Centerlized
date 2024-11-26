@@ -1,0 +1,20 @@
+export const CardData=[
+    {
+        id:1,
+        class:1,
+        Section:"A",
+        Subject:"Tamil"
+    },
+    {
+        id:2,
+        class:2,
+        Section:"A",
+        Subject:"Tamil"
+    },
+    {
+        id:3,
+        class:3,
+        Section:"A",
+        Subject:"Tamil"
+    }
+]

@@ -1,0 +1,23 @@
+.language__dropdown__container {
+  display: flex;
+//   flex-direction: column;
+  //   justify-content: end;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  .language__dropdown__label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .language__dropdown {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    border-radius: 6px;
+    background: transparent;
+    width: 10%;
+    gap: 8px;
+    padding: 8px 8px;
+  }
+}

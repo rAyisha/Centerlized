@@ -1,0 +1,78 @@
+/* @import "./utility/colors.scss"; */
+@import "./utility/them.scss";
+@import "./utility/font.scss";
+@import 'primeicons/primeicons.css';
+
+#app {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0rem;
+  /* text-align: center; */
+}
+
+body {
+  margin: 0px !important;
+}
+
+div#fixMeDetectBox {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: var(--white) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background-color) !important;
+}
+
+/* English */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Tamil */
+@font-face {
+  font-family: "Baamini";
+  src: url("./assets/fonts/Poppins/Baamini.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Kannada */
+@font-face {
+  font-family: "Nudi-Regular";
+  src: url("./assets/fonts/Poppins/Nudi-08-k-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Hindi */
+@font-face {
+  font-family: "Devanagari";
+  src: url("./assets/fonts/Poppins/Devanagari.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lang__based {
+  font-family: var(--font-family);
+}
+
+* {
+  font-family: "Poppins";
+}
+
+/* common style for dropdown */
+.p-dropdown-panel {
+  border-radius: 24px;
+
+  .p-dropdown-item-label {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,64 @@
+.overall__announcement_module {
+  .tab__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .dropdown__layout {
+      width: 32.5%;
+    }
+    .tab__header__search{
+      width: 100% !important;
+    }
+
+    .export__butt__overall {
+      border-radius: 8px;
+      gap: 10px;
+    }
+
+    .tab__header__buttons__layout {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      span.selected__view {
+        border-bottom: 2px solid #3d5ee1;
+      }
+
+      .tab__header__buttons__layout__hr {
+        height: 30px;
+        background-color: #d7d9de;
+      }
+
+      .p-button {
+        background-color: #4360e4;
+
+        &.p-button-outlined {
+          background-color: transparent;
+          border-color: #4360e4 !important;
+        }
+      }
+
+      .p-button-label {
+        font-weight: 400;
+      }
+    }
+    .buttons__layout {
+      background-color: #4360e4;
+      padding: 10px 16px;
+      .span {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: "Poppins";
+        color: #ffffff;
+      }
+    }
+  }
+
+  .head_offlinepayment {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #263446;
+  }
+}

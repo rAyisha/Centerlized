@@ -1,0 +1,102 @@
+.mater_tab_button {
+  // padding-top: 1rem;
+  // padding-bottom: 1rem;
+  .student__master__header__title {
+    color: var(--base-theme-color);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+  .student__master__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: 100%;
+    background: transparent;
+    border: var(--base-theme-color) 1px solid !important;
+    .p-button-label {
+      color: var(---base-theme-color);
+    }
+  }
+  .student__master__card__title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    transition-duration: 0s;
+    color: var(--base-theme-color);
+  }
+  .student__master__card__svg {
+    cursor: pointer;
+  }
+  // .student__master__add__export__btn {
+  //   display: flex;
+  //   justify-content: flex-end;
+  //   align-items: center;
+  //   .btn__container {
+  //     display: flex;
+  //     gap: 0.5rem;
+  //     .export__butt__overall {
+  //       border-radius: 8px;
+  //       gap: 10px;
+  //     }
+  //     .btn__add {
+  //       .p-button {
+  //         color: #ffffff;
+  //         background: #4360e4;
+  //         border: 1px solid #4360e4;
+  //         padding: 14px 16px 10px 16px;
+  //         font-size: 12px;
+  //         transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+  //           box-shadow 0.2s;
+  //         border-radius: 8px;
+  //         gap: 10px;
+  //       }
+  //       .p-button-label {
+  //         font-weight: 400;
+  //         font-family: "Poppins";
+  //       }
+  //     }
+  //   }
+  // }
+  // .p-column-header-content {
+  //   .column__header {
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 0.5rem;
+  //     color: #80889e;
+  //     font-weight: 400;
+  //   }
+
+  //   span[data-pc-section="sort"] {
+  //     display: none;
+  //   }
+  // }
+
+  // .p-datatable-thead tr {
+  //   border: none;
+  //   border-radius: 6px;
+  //   th {
+  //     background-color: #f9fafb;
+  //     border: none;
+
+  //     &.p-highlight {
+  //       background-color: #eef2ff;
+  //     }
+  //   }
+  // }
+  // .render__action {
+  //   display: flex;
+  //   gap: 2.5rem;
+  //   // justify-content: flex-end;
+  //   .render__action__edit {
+  //     cursor: pointer;
+  //   }
+  //   .render__action__trash {
+  //     cursor: pointer;
+  //   }
+  // }
+}

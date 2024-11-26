@@ -1,0 +1,137 @@
+.overall_alumni_manage_container {
+  .profile__tab__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 0px 42px 0px;
+  }
+  .horizontal__line {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #dbdce6;
+    margin-bottom: 24px;
+    margin-top: 16px;
+  }
+  .profile__input__container {
+    .dropdown__all {
+      width: 100%;
+      border-radius: 6px;
+      border-color: #dbdce6;
+    }
+  }
+
+  .export__search__button {
+    border-radius: 8px;
+      gap: 10px;
+      background-color: transparent;
+      color: #4360e4;
+      font-size: 14px;
+      font-family: "Poppins";
+      font-weight: 500;
+  }
+  .profileleft__tab__header {
+    display: flex;
+    // justify-content:space-between;
+    align-items: center;
+    gap: 1rem;
+    color: #6c757d;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    border-color: #dbdce6;
+
+    .profileleft__icon__controller {
+      width: 32px;
+      height: 32px;
+      background-color: #e8effb;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .staff__count {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1b2150;
+    }
+  }
+
+  .profile__tab__headertxt {
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: poppins;
+  }
+  .tab__header__search__mini {
+    width: 72%;
+    .pi {
+      font-family: "primeicons";
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      display: inline-block;
+      -webkit-font-smoothing: antialiased;
+      left: 10px;
+      -moz-osx-font-smoothing: grayscale;
+      color: #4360e4;
+    }
+
+    .p-inputtext {
+      font-family: var(--font-family);
+      font-feature-settings: var(--font-feature-settings, normal);
+      font-size: 1rem;
+      color: #4b5563;
+      background: transparent;
+      padding: 0.75rem 2.5rem;
+      border: 1px solid #4360e4;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+        box-shadow 0.2s;
+      appearance: none;
+      border-radius: 8px;
+      outline-color: transparent;
+      width: 100%;
+    }
+    .p-inputtext::placeholder {
+      color: #4360e4;
+    }
+  }
+
+  
+
+  
+
+  .p-confirm-dialog {
+    .p-dialog-header {
+      padding: 0.75rem;
+    }
+
+    .p-button {
+      padding: 0.5rem;
+    }
+
+    .p-confirm-dialog-reject {
+      color: #1e62e8;
+    }
+
+    .p-confirm-dialog-accept {
+      background-color: #1e62e8;
+    }
+
+    .p-button-label {
+      font-weight: 400;
+      font-family: var(--font-family);
+    }
+  }
+
+  .p-overlaypanel {
+    .p-overlaypanel-content {
+      padding: 0 1.25rem;
+
+      .p-button:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "LOGIN_SCREEN": {
+      "HEADER_TEXT": {
+        "MAIN": "Bienvenido a la aplicación",
+        "SUBTEXT": "Por favor inicie sesión para continuar"
+      },
+      "FIELDS": {
+        "USERNAME": {
+          "LABEL": "Nombre de usuario",
+          "PLACEHOLDER": "Ingrese su nombre de usuario"
+        },
+        "PASSWORD": {
+          "LABEL": "Contraseña",
+          "PLACEHOLDER": "Ingrese su contraseña"
+        }
+      },
+      "BUTTONS": {
+        "LOGIN": "Iniciar sesión",
+        "FORGOT_PASSWORD": "¿Olvidó su contraseña?",
+        "SIGNUP": "Regístrate aquí"
+      }
+    }
+  }
+  

@@ -1,0 +1,108 @@
+@import "../../utility/colors";
+
+.inputfield__container {
+  .inputfield__label__container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    .inputfield__label {
+      font-size: 16px;
+      font-weight: 400;
+      color: $font-color;
+      // font-family: "Baamini";
+      &.disabled {
+        color: $font-inactive-color;
+        // opacity: 0.6;
+      }
+    }
+
+    .inputfield__important {
+      color: $darkRed;
+    }
+  }
+  
+  input {
+    background-color: $field-bg-color;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid var(--base-theme-color);
+    width: 100%;
+    // font-family: "Baamini";
+
+    &::placeholder {
+      color: $font-inactive-color;
+    }
+
+    &:disabled {
+      color: $font-inactive-color;
+      background: transparent;
+      opacity: 0.6;
+
+      &::placeholder {
+        color: $font-inactive-color;
+      }
+    }
+
+    // &:focus {
+      // outline: none;
+      // border: 1px solid var(--base-theme-color);
+      // cursor: $font-color;
+    // }
+
+    &:not(:placeholder-shown) {
+      border: 1px solid var(--base-theme-color);
+      color: $font-color;
+    }
+
+    &:read-only:not(:disabled) {
+      background-color: $aliceblue;
+
+      &::placeholder {
+        color: $font-inactive-color;
+      }
+    }
+
+    &.invalid {
+      border: 1px solid $darkRed;
+      color: $darkRed;
+
+      &::placeholder {
+        color: $font-color;
+      }
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px $field-bg-color inset !important;
+      -webkit-text-fill-color: $font-color;
+    }
+  }
+  // .master__input {
+  //   background-color: #ecf0f3;
+  // }
+
+  .error__view {
+    // height: 16px;
+    color: $darkRed;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .overall_field_container{
+    display: flex;
+      position: relative;
+      align-items: center;
+     
+  }
+  .icon_field_container{
+    position: absolute;
+      right: 5%;
+      /* top: 2%; */
+      display: flex;
+  }
+}

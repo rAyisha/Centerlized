@@ -1,0 +1,52 @@
+.disable__student__fees__table__container {
+  width: 100%;
+  .button__container {
+    padding-bottom: 24px;
+    .button__area {
+      .p-button-label {
+        font-size: 14px;
+        font-family: "Poppins";
+        font-weight: 500;
+      }
+    }
+  }
+  .table__main__container {
+    .column__header {
+      color: #80889e;
+      font-weight: 500;
+      font-family: "Poppins";
+      font-size: 14px;
+    }
+    td {
+      color: #263446;
+      font-weight: 400;
+      font-family: "Poppins";
+      font-size: 14px;
+    }
+    .p-tag {
+      border-radius: 24px;
+      padding: 4px 8px;
+    }
+    .p-tag-danger {
+      background: #fdedf1;
+      color: #e56a6c;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .p-tag-success {
+      background: #eef8f3;
+      color: #31ad76;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .p-tag-warning {
+      background: #fff1e0;
+      color: #f1a245;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .footer__content {
+      font-weight: 500;
+    }
+  }
+}

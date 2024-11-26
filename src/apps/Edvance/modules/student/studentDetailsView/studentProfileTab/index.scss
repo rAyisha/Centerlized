@@ -1,0 +1,87 @@
+.student__details__overall__container {
+  .student__details__view__main__card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdce6;
+    width: 100%;
+    border-radius: 8px;
+    .card__content__area {
+      padding: 16px;
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      border-color: #dbdce6;
+    }
+    .card__content__last {
+      padding: 16px;
+      border-color: #dbdce6;
+    }
+    .card__left__side {
+      font-family: "Poppins";
+      width: 30%;
+      font-size: 14px;
+      font-weight: 400;
+      color: #263446;
+    }
+    .card__right__side {
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 400;
+      color: #80889e;
+    }
+    
+    .p-card .p-card-title {
+     
+       margin-bottom: 0rem !important;
+      font-family: "Poppins" !important;
+      font-size: 20px !important;
+      font-weight: 500 !important;
+      color: #263446 !important;
+  }
+  .container_carddetail_lable{
+    padding: 0.5px;
+  }
+  }
+  .card__title {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    color: #263446;
+    margin-top: 2rem;
+  }
+  .container_carddetail{
+   
+    padding: 1rem !important;
+    color: #4b5563;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  margin: 16px 0px;
+  // border: 1px solid #000;
+  }
+  .overall_container_carddetail{
+    height: 50%;
+  }
+  .overall_container{
+    // background-color: blue;
+    height: 20rem;
+  }
+  
+  .container_carddetail_inner{
+    display: flex !important;
+    // justify-content: space-around;
+    gap:14px;
+    // align-items: center;
+    gap:10px;
+    padding: 4px 0px;
+  }
+  .container_carddetail_img{
+   display: flex;
+  //  justify-content: end;
+  }
+  .container_carddetail_header{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    color: #263446;
+    // margin-top: 2rem;
+  }
+}

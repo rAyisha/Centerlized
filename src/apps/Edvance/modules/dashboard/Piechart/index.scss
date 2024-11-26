@@ -1,0 +1,80 @@
+.lesson-plan-chart {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .chart-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .chart-content {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .chart-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .chart-value {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .chart-label {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .chart-legend {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        .legend-item {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+
+            .legend-color {
+                width: 5px;
+                height: 15px;
+                margin-bottom: 5px;
+            }
+
+            .legend-label {
+                font-size: 10px;
+                margin-bottom: 5px;
+            }
+
+
+        }
+        .legend-value {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+    .p-dropdown {
+        background: #ffffff;
+        border: 1px solid #d1d5db;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 18px !important;
+        outline-color: transparent;
+    }
+   .title{
+    color: #263446;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Poppins";
+    font-weight: 500;
+   }
+}

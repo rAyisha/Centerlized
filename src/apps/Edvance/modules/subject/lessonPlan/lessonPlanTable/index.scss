@@ -1,0 +1,44 @@
+.lessonplan__table{
+    .p-column-header-content {
+        .column__header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #80889E;
+            font-weight: 400;
+        }
+
+        span[data-pc-section="sort"] {
+            display: none;
+        }
+    }
+.nodatafound_container{
+    text-align:center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #80889E
+    ;
+}
+    .p-datatable-thead tr {
+        border: none;
+        border-radius: 6px;
+
+        th {
+            // background-color: #F9FAFB;
+            border: none;
+            text-wrap: nowrap;
+        }
+    }
+
+    .p-datatable-tbody tr {
+        td{
+            text-wrap: nowrap;
+        }
+    }
+    .action_spliticon{
+        display: flex;
+        align-items: center;
+        gap:10px
+    }
+}

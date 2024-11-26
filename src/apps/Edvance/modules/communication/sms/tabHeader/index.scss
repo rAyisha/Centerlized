@@ -1,0 +1,21 @@
+.overall__profile__tab__header {
+  .totalcount_headerstudent {
+    display: flex;
+    // align-items: center;
+    gap: 20px
+  }
+
+  .tab__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .horizontal__line {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #dbdce6;
+    margin: 2rem 0rem !important;
+  }
+}

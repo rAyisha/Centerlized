@@ -1,0 +1,55 @@
+.syllabus__progress__view{
+.syllabus__status__report__progress__bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    .syllabus__status__report__progress__bar__style {
+      width: 15%;
+    }
+  }
+  .syllabus__status__report__subtitle {
+    color: #263446;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+  hr {
+    border: 1px solid #dbdce6;
+  }
+  .table__data {
+    display: flex;
+    justify-content: space-between;
+    .table__data__title {
+      color: #263446;
+      font-size: 14px;
+      line-height: 21px;
+      font-family: "Poppins";
+      font-weight: 500;
+    }
+    .table__data__value {
+      color: #4360e4;
+      font-size: 14px;
+      line-height: 21px;
+      font-family: "Poppins";
+      font-weight: 500;
+    }
+  }
+  .table__data__sub {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .table__data__sub__menu{
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .table__data__title__sub{
+    color: #263446;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,70 @@
+.vlook__chart__container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  .title__container {
+    display: flex;
+    justify-content: space-between;
+    .rovy__title {
+      color: #636363;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .dropdown__card {
+      padding: 0 4px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px 0px #00000012;
+    }
+  }
+  .chart__area {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    .bar__title {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 14px;
+      padding-bottom: 6px;
+    }
+    .p-metergroup-meter-container {
+      height: 32px;
+      border-radius: 4px;
+    }
+    .p-metergroup-label-list-end {
+      display: none;
+      // font-size: 14px;
+      // font-weight: 400;
+      // line-height: 14px;
+      // margin-top: 0.5rem;
+    }
+  }
+  .chart__caption {
+    display: flex;
+    gap: 10px;
+    .caption__area {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .caption__text {
+        color: #636363;
+        font-weight: 400;
+        font-size: 14px;
+      }
+      .small__circle {
+        width: 12px;
+        height: 12px;
+        border-radius: 2px;
+      }
+      .total__indicator {
+        background-color: var(--overall-color);
+      }
+      .present__indicator {
+        background-color: var(--active-color);
+      }
+      .absent__indicator {
+        background-color: var(--inactive-color);
+      }
+    }
+  }
+}

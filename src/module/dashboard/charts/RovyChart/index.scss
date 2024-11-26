@@ -1,0 +1,114 @@
+.rovy__chart__container {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 40px;
+  .rovy__title {
+    color: #636363;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .chart__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 24px;
+    .chart__area {
+      display: flex;
+      justify-content: center;
+      .parent__circle {
+        background-color: var(--overall-color);
+        width: 190px;
+        height: 188px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        .vehicle__circle {
+          background-color: var(--total-color);
+          width: 116px;
+          height: 116px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          right: 10px;
+          top: 24px;
+          opacity: 90%;
+          .vehicle__circle__count {
+            font-size: 26;
+            font-weight: 400;
+            color: #ffffff;
+          }
+        }
+        .active__circle {
+          background-color: var(--active-color);
+          width: 68px;
+          height: 68px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 60px;
+          left: 8px;
+          opacity: 90%;
+          .active__circle__count {
+            font-size: 22;
+            font-weight: 400;
+            color: #ffffff;
+          }
+        }
+        .inactive__circle {
+          background-color: var(--inactive-color);
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          left: 74px;
+          top: 128px;
+          opacity: 90%;
+          .inactive__circle__count {
+            font-size: 14;
+            font-weight: 400;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .chart__caption {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      .caption__area {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        .caption__text {
+          color: #636363;
+          font-weight: 400;
+          font-size: 14px;
+        }
+        .small__circle {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+        }
+        .vehicle__indicator {
+          background-color: #5277e4;
+        }
+        .active__indicator {
+          background-color: #59d3e3;
+        }
+        .inactive__indicator {
+          background-color: #e08700;
+        }
+      }
+    }
+  }
+}

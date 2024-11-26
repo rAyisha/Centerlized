@@ -1,0 +1,365 @@
+{
+  "LOGIN_SCREEN": {
+    "HEADER_TEXT": {
+      "MAIN": "مرحبًا بك في التطبيق",
+      "SUBTEXT": "يرجى تسجيل الدخول للمتابعة",
+      "LOGINTITLE": "تسجيل الدخول إلى حسابك",
+      "SIGNUPTITLE": "إنشاء حساب"
+    },
+    "FIELDS": {
+      "USERNAME": {
+        "LABEL": "اسم المستخدم",
+        "PLACEHOLDER": "أدخل اسم المستخدم الخاص بك"
+      },
+      "EMAIL": {
+        "LABEL": "البريد الإلكتروني",
+        "PLACEHOLDER": "أدخل بريدك الإلكتروني"
+      },
+      "PASSWORD": {
+        "LABEL": "كلمة المرور",
+        "PLACEHOLDER": "أدخل كلمة المرور الخاصة بك"
+      }
+    },
+    "BUTTONS": {
+      "LOGIN": "تسجيل الدخول",
+      "FORGOT_PASSWORD": "هل نسيت كلمة المرور؟",
+      "SIGNUP": "سجل هنا",
+      "NEW_USER": "ليس لديك حساب؟ أنشئ حسابًا",
+      "EXIT_USER": "لديك حساب؟ تسجيل الدخول هنا"
+    }
+  },
+  "COMPANY_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "تسجيل الشركة",
+      "SUBTEXT": "يرجى ملء التفاصيل أدناه لتسجيل شركتك."
+    },
+    "FIELDS": {
+      "COMPANY_CODE": {
+        "LABEL": "رمز الشركة",
+        "PLACEHOLDER": "أدخل رمز الشركة"
+      },
+      "COMPANY_NAME": {
+        "LABEL": "اسم الشركة",
+        "PLACEHOLDER": "أدخل اسم الشركة"
+      },
+      "DISPLAY_NAME": {
+        "LABEL": "اسم العرض",
+        "PLACEHOLDER": "أدخل اسم العرض"
+      },
+      "REGISTRATION_NUMBER": {
+        "LABEL": "رقم التسجيل",
+        "PLACEHOLDER": "أدخل رقم التسجيل"
+      },
+      "TAX_IDENTIFICATION_NUMBER": {
+        "LABEL": "رقم التعريف الضريبي",
+        "PLACEHOLDER": "أدخل رقم تعريف الضريبة"
+      },
+      "GSTIN": {
+        "LABEL": "رقم GSTIN",
+        "PLACEHOLDER": "أدخل GSTIN"
+      },
+      "INCORPORATION_DATE": {
+        "LABEL": "تاريخ التأسيس",
+        "PLACEHOLDER": "حدد تاريخ التأسيس"
+      },
+      "CITY": {
+        "LABEL": "مدينة",
+        "PLACEHOLDER": "حدد المدينة"
+      },
+      "STATE": {
+        "LABEL": "ولاية",
+        "PLACEHOLDER": "حدد الولاية"
+      },
+      "COUNTRY": {
+        "LABEL": "بلد",
+        "PLACEHOLDER": "حدد البلد"
+      },
+      "CORPORATE_EMAIL": {
+        "LABEL": "البريد الإلكتروني للشركة",
+        "PLACEHOLDER": "أدخل البريد الإلكتروني للشركة"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "رقم الهاتف",
+        "PLACEHOLDER": "أدخل رقم الهاتف"
+      },
+      "WEBSITE_URL": {
+        "LABEL": "عنوان URL للموقع الإلكتروني",
+        "PLACEHOLDER": "أدخل عنوان URL للموقع الإلكتروني"
+      },
+      "LEGAL_ENTITY_TYPE": {
+        "LABEL": "نوع الكيان القانوني",
+        "PLACEHOLDER": "حدد نوع الكيان القانوني"
+      },
+      "INDUSTRY": {
+        "LABEL": "صناعة",
+        "PLACEHOLDER": "اختر نوع الصناعة التي تعمل فيها شركتك"
+      },
+      "PARENT_COMPANY": {
+        "LABEL": "الشركة الأم",
+        "PLACEHOLDER": "أدخل اسم الشركة الأم، إذا كان ذلك ينطبق"
+      },
+      "PAN": {
+        "LABEL": "PAN",
+        "PLACEHOLDER": "أدخل رقم حسابك الدائم (PAN)"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "رقم الفاكس",
+        "PLACEHOLDER": "أدخل رقم الفاكس الخاص بشركتك، إذا كان متاحًا"
+      },
+      "CIN": {
+        "LABEL": "CIN",
+        "PLACEHOLDER": "أدخل رقم الهوية المؤسسية (CIN)"
+      },
+      "REGISTERED_ADDRESS": {
+        "LABEL": "العنوان المسجل",
+        "PLACEHOLDER": "أدخل العنوان الرسمي المسجل لشركتك"
+      }
+    }
+  },
+  "BRANCH_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "تسجيل الفرع",
+      "SUBTEXT": "يرجى ملء التفاصيل أدناه لتسجيل فرعك."
+    },
+    "FIELDS": {
+      "PARENT_COMPANY": {
+        "LABEL": "الشركة الأم",
+        "PLACEHOLDER": "اختر الشركة الأم"
+      },
+      "BRANCH_CODE": {
+        "LABEL": "رمز الفرع",
+        "PLACEHOLDER": "أدخل رمز الفرع"
+      },
+      "BRANCH_NAME": {
+        "LABEL": "اسم الفرع",
+        "PLACEHOLDER": "أدخل اسم الفرع"
+      },
+      "BRANCH_HEAD": {
+        "LABEL": "رئيس الفرع/المدير",
+        "PLACEHOLDER": "أدخل اسم رئيس الفرع"
+      },
+      "CONTACT_EMAIL": {
+        "LABEL": "البريد الإلكتروني للتواصل",
+        "PLACEHOLDER": "أدخل البريد الإلكتروني للتواصل"
+      },
+      "CONTACT_PHONE": {
+        "LABEL": "رقم الهاتف للتواصل",
+        "PLACEHOLDER": "أدخل رقم الهاتف للتواصل"
+      },
+      "BRANCH_TYPE": {
+        "LABEL": "نوع الفرع",
+        "PLACEHOLDER": "اختر نوع الفرع"
+      },
+      "DATE_ESTABLISHED": {
+        "LABEL": "تاريخ التأسيس",
+        "PLACEHOLDER": "اختر تاريخ التأسيس"
+      },
+      "BRANCH_ADDRESS": {
+        "LABEL": "عنوان الفرع",
+        "PLACEHOLDER": "أدخل عنوان الفرع"
+      },
+      "CITY": {
+        "LABEL": "المدينة",
+        "PLACEHOLDER": "اختر المدينة"
+      },
+      "STATE": {
+        "LABEL": "الولاية",
+        "PLACEHOLDER": "اختر الولاية"
+      },
+      "COUNTRY": {
+        "LABEL": "البلد",
+        "PLACEHOLDER": "اختر البلد"
+      },
+      "FINANCIAL_YEAR_END": {
+        "LABEL": "نهاية السنة المالية",
+        "PLACEHOLDER": "اختر نهاية السنة المالية"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "رقم الفاكس",
+        "PLACEHOLDER": "أدخل رقم الفاكس"
+      },
+      "YEAR_TYPE": {
+        "LABEL": "سنة نوع",
+        "PLACEHOLDER": "أدخل السنة والنوع"
+      }
+    }
+  },
+  "USER_REGISTRATION_ACCESS": {
+    "HEADER_TEXT": {
+      "MAIN": "تسجيل الوصول للمستخدم",
+      "SUBTEXT": "يرجى ملء التفاصيل أدناه لتسجيل المستخدم."
+    },
+    "FIELDS": {
+      "FIRST_NAME": {
+        "LABEL": "الاسم الأول",
+        "PLACEHOLDER": "أدخل الاسم الأول"
+      },
+      "MIDDLE_NAME": {
+        "LABEL": "الاسم الأوسط",
+        "PLACEHOLDER": "أدخل الاسم الأوسط"
+      },
+      "LAST_NAME": {
+        "LABEL": "الاسم الأخير",
+        "PLACEHOLDER": "أدخل الاسم الأخير"
+      },
+      "COMPANY": {
+        "LABEL": "الشركة",
+        "PLACEHOLDER": "اختر الشركة"
+      },
+      "PERSONAL_EMAIL": {
+        "LABEL": "البريد الإلكتروني الشخصي",
+        "PLACEHOLDER": "أدخل البريد الإلكتروني الشخصي"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "رقم الهاتف",
+        "PLACEHOLDER": "أدخل رقم الهاتف"
+      },
+      "DATE_OF_BIRTH": {
+        "LABEL": "تاريخ الميلاد",
+        "PLACEHOLDER": "اختر تاريخ الميلاد"
+      },
+      "WORK_EMAIL": {
+        "LABEL": "البريد الإلكتروني للعمل",
+        "PLACEHOLDER": "أدخل البريد الإلكتروني للعمل"
+      },
+      "GENDER": {
+        "LABEL": "الجنس",
+        "PLACEHOLDER": "اختر الجنس"
+      },
+      "BLOOD_GROUP": {
+        "LABEL": "فصيلة الدم",
+        "PLACEHOLDER": "اختر فصيلة الدم"
+      },
+      "FATHER_NAME": {
+        "LABEL": "اسم الأب",
+        "PLACEHOLDER": "أدخل اسم الأب"
+      },
+      "MOTHER_NAME": {
+        "LABEL": "اسم الأم",
+        "PLACEHOLDER": "أدخل اسم الأم"
+      },
+      "MARITAL_STATUS": {
+        "LABEL": "الحالة الاجتماعية",
+        "PLACEHOLDER": "اختر الحالة الاجتماعية"
+      },
+      "SPOUSE_NAME": {
+        "LABEL": "اسم الزوج/الزوجة",
+        "PLACEHOLDER": "أدخل اسم الزوج/الزوجة"
+      },
+      "DEPARTMENT": {
+        "LABEL": "القسم",
+        "PLACEHOLDER": "اختر القسم"
+      },
+      "DESIGNATION": {
+        "LABEL": "المنصب",
+        "PLACEHOLDER": "اختر المنصب"
+      },
+      "REPORT_TO": {
+        "LABEL": "المشرف",
+        "PLACEHOLDER": "اختر المشرف"
+      },
+      "ACCESS_PARAMETERS": {
+        "HEADER": "معلمات الوصول"
+      },
+      "GENERATE_LOGIN_CREDENTIALS": {
+        "LABEL": "إنشاء بيانات اعتماد تسجيل الدخول"
+      },
+      "BASE_BRANCH": {
+        "LABEL": "الفرع الأساسي",
+        "PLACEHOLDER": "اختر الفرع الأساسي"
+      }
+    }
+  },
+  "YEAR_TYPE": {
+    "HEADER_TEXT": {
+      "MAIN": "تسجيل السنة"
+    },
+    "FIELDS": {
+      "YEAR_TYPE": {
+        "LABEL": "نوع السنة",
+        "PLACEHOLDER": "اختر نوع السنة"
+      },
+      "START_DATE": {
+        "LABEL": "تاريخ البدء",
+        "PLACEHOLDER": "اختر تاريخ البدء"
+      },
+      "END_DATE": {
+        "LABEL": "تاريخ الانتهاء",
+        "PLACEHOLDER": "اختر تاريخ الانتهاء"
+      }
+    }
+  },
+  "DYNAMIC_MASTER_FORM": {
+    "HEADER_TEXT": {
+      "MAIN": "تسجيل الماستر"
+    },
+    "FIELDS": {
+      "MASTER_NAME": {
+        "LABEL": "اسم الماستر",
+        "PLACEHOLDER": "أدخل اسم الماستر"
+      },
+      "ASSOCIATED_MASTER_NAME": {
+        "LABEL": "اسم الماستر المرتبط",
+        "PLACEHOLDER": "أدخل اسم الماستر المرتبط"
+      },
+      "VALUE": {
+        "LABEL": "القيمة",
+        "PLACEHOLDER": "أدخل القيمة"
+      },
+      "ASSOCIATED_MASTER_VALUE": {
+        "LABEL": "قيمة الماستر المرتبطة",
+        "PLACEHOLDER": "أدخل قيمة الماستر المرتبطة"
+      }
+    }
+  },
+  "SIDEBAR_NAMES": {
+    "TestModuleDelMe": "تيست مودول ديل مي",
+    "TestSubDelMe": "تيست سب ديل مي",
+    "TestDelMe": "تيست ديل مي",
+    "Test2DelMe": "تيست 2 ديل مي",
+    "Test3DelMe": "تيست 3 ديل مي",
+    "TestSub2DelMe": "تيست سب 2 ديل مي",
+    "TestX2DelMe": "تيست إكس 2 ديل مي",
+    "TestX3DelMe": "تيست إكس 3 ديل مي",
+    "TestX4DelMe": "تيست إكس 4 ديل مي",
+    "Dashboard": "لوحة القيادة",
+    "Central Admin": "الإدارة المركزية",
+    "Company": "شركة",
+    "Branch": "فرع",
+    "Year": "سنة",
+    "Users": "المستخدمون",
+    "Templates": "القوالب",
+    "Dynamic Master": "الماستر الديناميكي",
+    "Edvance": "إدفانس",
+    "Students": "الطلاب",
+    "List Students": "قائمة الطلاب",
+    "Inactive Students": "الطلاب غير النشطين",
+    "Staffs": "الموظفين",
+    "Staff Directory": "دليل الموظفين",
+    "Payroll": "كشوف المرتبات",
+    "Inactive Staff": "الموظفون غير النشطين",
+    "Leaves": "الإجازات",
+    "Academics": "الأكاديميون",
+    "My Class": "صفي",
+    "Class Timetable": "جدول الحصص",
+    "Teacher Timetable": "جدول المعلم",
+    "Assign Teacher": "تعيين معلم",
+    "Attendance": "الحضور",
+    "Homework": "الواجبات المنزلية",
+    "Promote Students": "ترقية الطلاب",
+    "Assign Students": "تعيين الطلاب",
+    "Exams": "الامتحانات",
+    "WorkFlow": "سير العمل",
+    "Notifications": "الإشعارات"
+  },
+  "BUTTONS": {
+    "LOGIN": "تسجيل الدخول",
+    "FORGOT_PASSWORD": "هل نسيت كلمة المرور؟",
+    "SIGNUP": "سجل هنا",
+    "NEW_USER": "ليس لديك حساب؟ أنشئ حسابًا",
+    "EXIT_USER": "لديك حساب؟ تسجيل الدخول هنا",
+    "SUBMIT": "إرسال",
+    "UPDATE": "تحديث",
+    "BACK": "عودة"
+  }
+}

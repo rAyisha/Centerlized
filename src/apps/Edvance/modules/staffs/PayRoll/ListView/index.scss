@@ -1,0 +1,25 @@
+.action__template{
+    background-color: #4360E4;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.list-view-container {
+    display: flex;
+    justify-content: flex-end; // Aligns the content to the right
+    padding: 20px; // Add some padding if needed
+  }
+  
+  .data-table {
+    width: auto; // Ensures the table takes its natural width
+    margin-right: 0; // Optional: adjust margin as needed
+  }
+  
+  .table__arrow__icon {
+    cursor: pointer;
+  }

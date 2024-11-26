@@ -1,0 +1,19 @@
+.filter__componets {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    button {
+        border-radius: 10px;
+        border: 1px solid var(--base-color);
+        border-radius: 6px;
+        padding: 12px 2rem;
+        color: var(--base-color);
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+
+    }
+    ul.p-inputtext.p-chips-multiple-container {
+    border: 0px transparent;
+    }
+}

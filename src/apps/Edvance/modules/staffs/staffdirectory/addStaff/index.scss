@@ -1,0 +1,177 @@
+.student_staffadd {
+  // padding-top: 1rem;
+  // padding-bottom: 1rem;
+  .student__header {
+    display: flex;
+    justify-content: space-between;
+    .student__header__title {
+      color: #263446;
+      font-size: 20px;
+      line-height: 30px;
+      font-family: "Poppins";
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1rem;
+      .student__header__title__icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .student__header__text{
+        color: #263446;
+        font-size: 20px;
+       
+        font-family: "Poppins";
+        font-weight: 500;
+      }
+    }
+  }
+  .student__sibiling {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2%;
+    cursor: pointer;
+  }
+  .overall_siblings{
+   
+    color: #1e293b;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.75rem 0.5rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    appearance: none;
+    // width: 100%;
+    border-radius: 6px;
+    background: #fff;
+    border: #dbdce6 1px solid;
+    gap:10px;
+    height: 60px;
+  }
+
+.student__text__area{
+    .p-inputtext {
+        font-family: var(--font-family);
+        font-feature-settings: var(--font-feature-settings, normal);
+        font-size: 1rem;
+        color: #4b5563;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #d1d5db;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+        outline-color: transparent;
+        width: 100%;
+    }
+    input::placeholder {
+        color: #727B91;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        line-height: 21px;
+      }
+}
+.student__sub__title{
+    color: #263446;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Poppins";
+    font-weight: 500; 
+}
+.student__free__details{
+    display:flex;
+    justify-content: space-between;
+    .student__free__details__title{
+        color: #263446;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Poppins";
+        font-weight: 500; 
+    }
+    .student__sub__title__number{
+        color: #263446;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Poppins";
+        font-weight: 500; 
+    }
+}
+.student__accordion{
+    height: 100;
+}
+.student__accordion__add__more{
+    padding: 1rem;
+    .rte__title{
+        padding-left: 3%;
+        color: #263446;
+        font-size: 14px;
+        line-height: 21px;
+        font-family: "Poppins";
+        font-weight: 500; 
+    }
+}
+.student__bottom__btn{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1.5rem;
+}
+.deleteicon_siblings{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+ width: 100%;
+}
+.addicon_previusschool_lablecontainer{
+  display: flex;
+  align-items: center;
+  gap:6px;
+  cursor: pointer;
+  margin: 16px 0px;
+  width: fit-content;
+.addicon_previusschool{
+  background: #4360E4;
+  width: fit-content;
+  border-radius: 14px;
+  display: flex;
+  padding: 4px;
+}
+.addicon_previusschool_lable{
+  color: #4360E4;
+  font-size: 16px;
+}
+}
+.splitter_address{
+ 
+}
+.icon_showerdeatails{
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  // background-color: red;
+}
+.p-fieldset .p-fieldset-content {
+  padding: 1.25rem;
+  padding-top: 0rem !important;
+}
+.overall_container_siblings{
+  margin: 10px;
+  width: 100%;
+}
+.chip_sortable{
+  width: fit-content;
+}
+.fieldset_parants{
+  // background-color: red;
+  margin-top: 10px;
+}
+}

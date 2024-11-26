@@ -1,0 +1,19 @@
+@import "../../utility/colors";
+
+.checkbox__group__component {
+    color: $dimgray;
+    font-size: 14px;
+    font-weight: 500;
+
+    .checkbox__group__label {
+        margin-bottom: 16px;
+        margin-left: 4px;
+    }
+
+
+    input[type="radio"] {
+        height: 16px;
+        width: 16px;
+        accent-color: $cobalt;
+    }
+}

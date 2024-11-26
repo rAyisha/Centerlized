@@ -1,0 +1,30 @@
+.apply__leave__add__export__btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .btn__container {
+    display: flex;
+    gap: 0.5rem;
+    .export__butt__overall {
+      border-radius: 8px;
+      gap: 10px;
+    }
+    .btn__add {
+      .p-button {
+        // color: #ffffff;
+        // background: #4360e4;
+        // border: 1px solid #4360e4;
+        padding: 10px 16px 10px 16px;
+        font-size: 12px;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+          box-shadow 0.2s;
+        border-radius: 8px;
+        gap: 10px;
+      }
+      .p-button-label {
+        font-weight: 400;
+        font-family: "Poppins";
+      }
+    }
+  }
+}

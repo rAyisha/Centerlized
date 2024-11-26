@@ -1,0 +1,89 @@
+@import "../../utility/colors";
+
+.custom__datatable {
+  .p-datatable-thead {
+    // &::after {
+    //   content: "";
+    //   display: block;
+    //   height: 0.5rem;
+    // }
+
+    th {
+      // background-color: $cobalt;
+      background-color: var(--base-color);
+      color: var(--base-text-inactive-color);
+      //   color: $white;
+      font-weight: 500;
+      .p-column-header-content{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-wrap: nowrap;
+      }
+
+      &:nth-child(1) {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        width: 10%;
+      }
+
+      &:nth-last-child(1) {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        width: 10%;
+      }
+    }
+  }
+
+  .p-paginator {
+    // .row__count {
+    // }
+
+    .p-dropdown {
+      height: 2rem;
+      border: none;
+      margin-left: 1rem;
+      background-color: transparent;
+      gap: 8px;
+      .p-dropdown-label {
+        padding: 0.3rem 0rem 0.25rem 0.5rem;
+        // color: $white;
+      }
+
+      .pi {
+        color: red;
+      }
+    }
+
+    .p-paginator-element {
+      min-width: 1.5rem;
+    }
+  }
+
+  .empty__message__template {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: $lightgrey;
+  }
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+//   text-align: center;
+  border: 1px solid #e5e7eb;
+  border-width: 0 0 1px 0;
+  padding: 0.8rem 1rem;
+}
+
+.p-datatable .p-column-header-content {
+  display: flex;
+  align-items: center;
+//   justify-content: center;
+}
+
+.p-datatable .p-paginator-bottom {
+  background-color: transparent;
+}

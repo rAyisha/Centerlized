@@ -1,0 +1,94 @@
+.overall_calendar_container {
+    width: 100%;
+
+    .month-selector {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+
+        .month-selector-selectdate {
+            color: #4360e4;
+            background: #ffffff;
+            border: 1px solid #4360e4;
+            padding: 8px 0 8px 3px;
+            border-radius: 8px;
+            height: 100%;
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+    }
+
+    .legends__layout {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .overall_calendar {
+        max-width: 100%;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+
+        .calendar-header {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 5px;
+        }
+
+        .calendar-day {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            height: 80px;
+            position: relative;
+            background-color: #b0b6dc;
+            cursor: pointer;
+
+            &.future-day {
+                opacity: 0.5; // Make future days appear disabled
+                background-color: #f5f5f5; // Change to a softer background color
+            }
+
+            .day-number {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                font-size: 12px;
+
+                //   background-color: #4360E4;
+                //   color: white !important;
+                //   padding: 10px;
+                //   border-radius: 100%;r
+                &.disabled {
+                    pointer-events: none;
+                    // Prevent clicking on future days
+                }
+            }
+        }
+
+        .pie-chart-wrapper {
+            position: relative;
+        }
+
+        .status-label {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .empty {
+            background-color: #f5f5f5;
+        }
+    }
+}

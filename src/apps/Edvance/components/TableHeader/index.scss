@@ -1,0 +1,79 @@
+@import "../../../../utility/colors.scss";
+
+.table__common__header__layout {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse !important;
+
+    .search__export__layout {
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+
+        .search__view {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 16px;
+            border-radius: 6px;
+            border: 1px solid var(--base-theme-color);
+            width: 100%;
+
+            input {
+                flex: 1;
+                border: none;
+                background: transparent;
+                cursor: $cobalt;
+                color: $cobalt;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::placeholder {
+                    color: $lightgrey;
+                }
+
+            }
+        }
+    }
+
+    .p-button {
+        overflow: visible;
+    }
+
+    .list__type__selection__layout {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        span.selected__view {
+            border-bottom: 2px solid #000;
+        }
+
+        .tab__header__buttons__layout__hr {
+            height: 30px;
+            background-color: #d7d9de;
+        }
+    }
+
+
+    .export__view {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: $aliceblue;
+        color: $cobalt;
+        font-size: 16px;
+        padding: 10px 16px;
+        cursor: pointer;
+
+        .divider {
+            background-color: $cobalt;
+            width: 1px;
+            height: 16px;
+        }
+    }
+
+}

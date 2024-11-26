@@ -1,0 +1,152 @@
+@import "./colors.scss";
+
+// html[data-theme="normal"] {
+//   --primary-background-color: #{$black};
+//   --secondry-background-color: #{$white};
+//   --tertiary-background-color: #{$black};
+
+//   --primary-text-color: #{$black};
+//   --secondry-text-color: #{$black};
+//   --tertiary-text-color: #{$black};
+// }
+html[data-theme="dark"] {
+  --primary-background-color: #{$black};
+  --secondry-background-color: #{$white};
+  --tertiary-background-color: #{$black};
+
+  --primary-text-color: #{$black};
+  --secondry-text-color: #{$black};
+  --tertiary-text-color: #{$black};
+}
+html[data-theme="light"] {
+  --primary-background-color: #{$white};
+  --secondry-background-color: #{$black};
+  --tertiary-background-color: #{$white};
+
+  --primary-text-color: #{$white};
+  --secondry-text-color: #{$white};
+  --tertiary-text-color: #{$white};
+}
+html[data-theme="lightshade"] {
+  --primary-background-color: #{$Green};
+  --secondry-background-color: #{$white};
+  --tertiary-background-color: #{$Green};
+
+  --primary-text-color: #{$black};
+  --secondry-text-color: #{$black};
+  --tertiary-text-color: #{$black};
+}
+html[data-theme="normalshade"] {
+  --primary-background-color: #{$darkerkelly};
+  --secondry-background-color: #{$white};
+  --tertiary-background-color: #{$darkerkelly};
+
+  --primary-text-color: #{$black};
+  --secondry-text-color: #{$black};
+  --tertiary-text-color: #{$black};
+}
+html[data-theme="darkshade"] {
+  --primary-background-color: #{$indigo};
+  --secondry-background-color: #{$white};
+  --tertiary-background-color: #{$indigo};
+
+  --primary-text-color: #{$white};
+  --secondry-text-color: #{$white};
+  --tertiary-text-color: #{$white};
+}
+
+html[data-theme="royalblue"] {
+  --primary-background-color: #{$RoyalBlue};
+  --secondry-background-color: #{$white};
+  --tertiary-background-color: #{$RoyalBlue};
+
+  --primary-text-color: #{$white};
+  --secondry-text-color: #{$white};
+  --tertiary-text-color: #{$white};
+}
+html[data-theme="lilac"] {
+  --primary-background-color: #{$Lilac};
+  --secondry-background-color: #{$white};
+  --tertiary-background-color: #{$Lilac};
+
+  --primary-text-color: #{$black};
+  --secondry-text-color: #{$black};
+  --tertiary-text-color: #{$black};
+}
+// new figma color theme
+
+html[data-theme="normal"] {
+  --base-color: #{$royalblue-base-color};
+  --base-theme-color: #{$royalblue-base-color};
+  --base-theme-icon-color: #{$royalblue-base-text-inactive-color};
+  --base-text-color: #{$royalblue-base-text-color};
+  --base-text-inactive-color: #{$royalblue-base-text-inactive-color};
+  --base-bg-color: #{$royalblue-base-background-color};
+  --overall-color: #{$royalblue-overall-color};
+  --total-color: #{$royalblue-total-color};
+  --active-color: #{$royalblue-active-color};
+  --inactive-color: #{$royalblue-inactive-color};
+  --bar-base-color: #{$royalblue-bar-base-color};
+  --bar-top-color: #{$royalblue-bar-top-gradient};
+  --bar-bottom-color: #{$royalblue-bar-bottom-gradient};
+}
+html[data-theme="royalblue"] {
+  --base-color: #{$royalblue-base-color};
+  --base-theme-color: #{$royalblue-base-color};
+  --base-theme-icon-color: #{$royalblue-base-text-inactive-color};
+  --base-text-color: #{$royalblue-base-text-color};
+  --base-text-inactive-color: #{$royalblue-base-text-inactive-color};
+  --base-bg-color: #{$royalblue-base-background-color};
+  --overall-color: #{$royalblue-overall-color};
+  --total-color: #{$royalblue-total-color};
+  --active-color: #{$royalblue-active-color};
+  --inactive-color: #{$royalblue-inactive-color};
+  --bar-base-color: #{$royalblue-bar-base-color};
+  --bar-top-color: #{$royalblue-bar-top-gradient};
+  --bar-bottom-color: #{$royalblue-bar-bottom-gradient};
+}
+html[data-theme="jacarta"] {
+  --base-color: #{$jacarta-base-color};
+  --base-theme-color: #{$jacarta-base-color};
+  --base-theme-icon-color: #{$jacarta-base-text-inactive-color};
+  --base-text-color: #{$jacarta-base-text-color};
+  --base-text-inactive-color: #{$jacarta-base-text-inactive-color};
+  --base-bg-color: #{$jacarta-base-background-color};
+  --overall-color: #{$jacarta-overall-color};
+  --total-color: #{$jacarta-total-color};
+  --active-color: #{$jacarta-active-color};
+  --inactive-color: #{$jacarta-inactive-color};
+  --bar-base-color: #{$jacarta-bar-base-color};
+  --bar-top-color: #{$jacarta-bar-top-gradient};
+  --bar-bottom-color: #{$jacarta-bar-bottom-gradient};
+}
+html[data-theme="titanwhite"] {
+  --base-color: #{$titanwhite-base-color};
+  --base-theme-color: #{$titanwhite-base-text-color};
+  --base-theme-icon-color: #{$titanwhite-base-text-color};
+  --base-text-color: #{$titanwhite-base-text-color};
+  --base-text-inactive-color: #{$titanwhite-base-text-inactive-color};
+  --base-bg-color: #{$titanwhite-base-background-color};
+  --overall-color: #{$titanwhite-overall-color};
+  --total-color: #{$titanwhite-total-color};
+  --active-color: #{$titanwhite-active-color};
+  --inactive-color: #{$titanwhite-inactive-color};
+  --bar-base-color: #{$titanwhite-bar-base-color};
+  --bar-top-color: #{$titanwhite-bar-top-gradient};
+  --bar-bottom-color: #{$titanwhite-bar-bottom-gradient};
+}
+html[data-theme="sugarcane"] {
+  --base-color: #{$sugarcane-base-color};
+  --base-theme-color: #{$sugarcane-base-text-color};
+  --base-theme-icon-color: #{$sugarcane-base-text-color};
+  --base-text-color: #{$sugarcane-base-text-color};
+  --base-text-inactive-color: #{$sugarcane-base-text-inactive-color};
+  --base-bg-color: #{$sugarcane-base-background-color};
+  --overall-color: #{$sugarcane-overall-color};
+  --total-color: #{$sugarcane-total-color};
+  --active-color: #{$sugarcane-active-color};
+  --inactive-color: #{$sugarcane-inactive-color};
+  --bar-base-color: #{$sugarcane-bar-base-color};
+  --bar-top-color: #{$sugarcane-bar-top-gradient};
+  --bar-bottom-color: #{$sugarcane-bar-bottom-gradient};
+}

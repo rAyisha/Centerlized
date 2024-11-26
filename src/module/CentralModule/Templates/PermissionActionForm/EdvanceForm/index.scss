@@ -1,0 +1,15 @@
+.primary__template__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .module__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .table__main {
+    width: 100%;
+    .table__header {
+      text-align: justify;
+    }
+  }
+}

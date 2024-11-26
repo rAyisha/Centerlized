@@ -1,0 +1,365 @@
+{
+  "LOGIN_SCREEN": {
+    "HEADER_TEXT": {
+      "MAIN": "ஆப்பிற்கு வரவேற்கிறோம்",
+      "SUBTEXT": "தொடர்வதற்கு உள்நுழையவும்",
+      "LOGINTITLE": "உங்கள் கணக்கில் உள்நுழைக",
+      "SIGNUPTITLE": "ஒரு கணக்கை உருவாக்கவும்"
+    },
+    "FIELDS": {
+      "USERNAME": {
+        "LABEL": "பயனர் பெயர்",
+        "PLACEHOLDER": "உங்கள் பயனர் பெயரை உள்ளிடவும்"
+      },
+      "EMAIL": {
+        "LABEL": "மின்னஞ்சல்",
+        "PLACEHOLDER": "உங்கள் மின்னஞ்சலை உள்ளிடவும்"
+      },
+      "PASSWORD": {
+        "LABEL": "கடவுச்சொல்",
+        "PLACEHOLDER": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்"
+      }
+    },
+    "BUTTONS": {
+      "LOGIN": "உள்நுழைக",
+      "FORGOT_PASSWORD": "உங்கள் கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+      "SIGNUP": "இங்கே பதிவு செய்யவும்",
+      "NEW_USER": "பதிவு செய்யவில்லையா? கணக்கை உருவாக்கவும்",
+      "EXIT_USER": "கணக்கு இருக்கிறதா? இங்கே உள்நுழையவும்"
+    }
+  },
+  "COMPANY_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "கம்பெனி பதிவு",
+      "SUBTEXT": "உங்கள் கம்பெனை பதிவு செய்ய கீழே உள்ள விவரங்களை நிரப்பவும்."
+    },
+    "FIELDS": {
+      "COMPANY_CODE": {
+        "LABEL": "கம்பெனி குறியீடு",
+        "PLACEHOLDER": "கம்பெனி குறியீட்டை உள்ளிடவும்"
+      },
+      "COMPANY_NAME": {
+        "LABEL": "கம்பெனி பெயர்",
+        "PLACEHOLDER": "கம்பெனி பெயரை உள்ளிடவும்"
+      },
+      "DISPLAY_NAME": {
+        "LABEL": "காட்சி பெயர்",
+        "PLACEHOLDER": "காட்சிப் பெயரை உள்ளிடவும்"
+      },
+      "REGISTRATION_NUMBER": {
+        "LABEL": "பதிவு எண்",
+        "PLACEHOLDER": "பதிவு எண்ணை உள்ளிடவும்"
+      },
+      "TAX_IDENTIFICATION_NUMBER": {
+        "LABEL": "வரி அடையாள எண்",
+        "PLACEHOLDER": "வரி அடையாள எண்ணை உள்ளிடவும்"
+      },
+      "GSTIN": {
+        "LABEL": "ஜிஎஸ்டிஐஎன்",
+        "PLACEHOLDER": "ஜிஎஸ்டிஐஎனை உள்ளிடவும்"
+      },
+      "INCORPORATION_DATE": {
+        "LABEL": "நிறுவல் தேதி",
+        "PLACEHOLDER": "நிறுவல் தேதியை தேர்ந்தெடுக்கவும்"
+      },
+      "CITY": {
+        "LABEL": "நகர்",
+        "PLACEHOLDER": "நகரத்தை தேர்ந்தெடுக்கவும்"
+      },
+      "STATE": {
+        "LABEL": "மாநிலம்",
+        "PLACEHOLDER": "மாநிலத்தை தேர்ந்தெடுக்கவும்"
+      },
+      "COUNTRY": {
+        "LABEL": "நாடு",
+        "PLACEHOLDER": "நாட்டை தேர்ந்தெடுக்கவும்"
+      },
+      "CORPORATE_EMAIL": {
+        "LABEL": "கம்பெனி மின்னஞ்சல் முகவரி",
+        "PLACEHOLDER": "கம்பெனி மின்னஞ்சலை உள்ளிடவும்"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "தொலைபேசி எண்",
+        "PLACEHOLDER": "தொலைபேசி எண்ணை உள்ளிடவும்"
+      },
+      "WEBSITE_URL": {
+        "LABEL": "வலைத்தளம் URL",
+        "PLACEHOLDER": "வலைத்தளம் URL ஐ உள்ளிடவும்"
+      },
+      "LEGAL_ENTITY_TYPE": {
+        "LABEL": "சட்ட பத்திர வகை",
+        "PLACEHOLDER": "சட்ட பத்திர வகையை தேர்ந்தெடுக்கவும்"
+      },
+      "INDUSTRY": {
+        "LABEL": "தொழில்",
+        "PLACEHOLDER": "உங்கள் நிறுவனம் செயற்படும் தொழிலின் வகையை தேர்ந்தெடுக்கவும்"
+      },
+      "PARENT_COMPANY": {
+        "LABEL": "முதன்மை நிறுவனம்",
+        "PLACEHOLDER": "தApplicable ஆவின் பெயரை உள்ளிடவும்"
+      },
+      "PAN": {
+        "LABEL": "PAN",
+        "PLACEHOLDER": "உங்கள் நிரந்தர கணக்கு எண்ணை (PAN) உள்ளிடவும்"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "பேக்ஸ் எண்ணிக்கை",
+        "PLACEHOLDER": "உங்கள் நிறுவனத்தின் பேக்ஸ் எண்ணை உள்ளிடவும்"
+      },
+      "CIN": {
+        "LABEL": "CIN",
+        "PLACEHOLDER": "உங்கள் நிறுவன அடையாள எண்ணை (CIN) உள்ளிடவும்"
+      },
+      "REGISTERED_ADDRESS": {
+        "LABEL": "பதிவு செய்யப்பட்ட முகவரி",
+        "PLACEHOLDER": "உங்கள் நிறுவனத்தின் அதிகாரப்பூர்வ முகவரியை உள்ளிடவும்"
+      }
+    }
+  },
+  "BRANCH_REGISTRATION": {
+    "HEADER_TEXT": {
+      "MAIN": "கிளை பதிவு",
+      "SUBTEXT": "உங்கள் கிளையைப் பதிவுசெய்ய கீழே உள்ள விவரங்களை நிரப்பவும்."
+    },
+    "FIELDS": {
+      "PARENT_COMPANY": {
+        "LABEL": "மூல நிறுவனம்",
+        "PLACEHOLDER": "மூல நிறுவனத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "BRANCH_CODE": {
+        "LABEL": "கிளை குறியீடு",
+        "PLACEHOLDER": "கிளை குறியீட்டை உள்ளிடவும்"
+      },
+      "BRANCH_NAME": {
+        "LABEL": "கிளை பெயர்",
+        "PLACEHOLDER": "கிளை பெயரை உள்ளிடவும்"
+      },
+      "BRANCH_HEAD": {
+        "LABEL": "கிளை தலைவர்/மேலாளர்",
+        "PLACEHOLDER": "கிளை தலைவரை உள்ளிடவும்"
+      },
+      "CONTACT_EMAIL": {
+        "LABEL": "தொடர்பு மின்னஞ்சல்",
+        "PLACEHOLDER": "தொடர்பு மின்னஞ்சலை உள்ளிடவும்"
+      },
+      "CONTACT_PHONE": {
+        "LABEL": "தொடர்பு தொலைபேசி எண்",
+        "PLACEHOLDER": "தொடர்பு தொலைபேசி எண்ணை உள்ளிடவும்"
+      },
+      "BRANCH_TYPE": {
+        "LABEL": "கிளை வகை",
+        "PLACEHOLDER": "கிளை வகையைத் தேர்ந்தெடுக்கவும்"
+      },
+      "DATE_ESTABLISHED": {
+        "LABEL": "நிறுவப்பட்ட தேதி",
+        "PLACEHOLDER": "நிறுவப்பட்ட தேதியைத் தேர்ந்தெடுக்கவும்"
+      },
+      "BRANCH_ADDRESS": {
+        "LABEL": "கிளை முகவரி",
+        "PLACEHOLDER": "கிளை முகவரியை உள்ளிடவும்"
+      },
+      "CITY": {
+        "LABEL": "நகரம்",
+        "PLACEHOLDER": "நகரத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "STATE": {
+        "LABEL": "மாநிலம்",
+        "PLACEHOLDER": "மாநிலத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "COUNTRY": {
+        "LABEL": "நாடு",
+        "PLACEHOLDER": "நாட்டைத் தேர்ந்தெடுக்கவும்"
+      },
+      "FINANCIAL_YEAR_END": {
+        "LABEL": "நிதி ஆண்டு முடிவு",
+        "PLACEHOLDER": "நிதி ஆண்டு முடிவைத் தேர்ந்தெடுக்கவும்"
+      },
+      "FAX_NUMBER": {
+        "LABEL": "தொலைநகல் எண்",
+        "PLACEHOLDER": "தொலைநகல் எண்ணை உள்ளிடவும்"
+      },
+      "YEAR_TYPE": {
+        "LABEL": "ஆண்டு வகை",
+        "PLACEHOLDER": "ஆண்டு மற்றும் வகையை உள்ளிடவும்"
+      }
+    }
+  },
+  "USER_REGISTRATION_ACCESS": {
+    "HEADER_TEXT": {
+      "MAIN": "பயனர் அணுகல் பதிவு",
+      "SUBTEXT": "பயனரை பதிவு செய்ய கீழே உள்ள விவரங்களை நிரப்பவும்."
+    },
+    "FIELDS": {
+      "FIRST_NAME": {
+        "LABEL": "முதல் பெயர்",
+        "PLACEHOLDER": "முதல் பெயரை உள்ளிடவும்"
+      },
+      "MIDDLE_NAME": {
+        "LABEL": "நடுத்தர பெயர்",
+        "PLACEHOLDER": "நடுத்தர பெயரை உள்ளிடவும்"
+      },
+      "LAST_NAME": {
+        "LABEL": "கடைசி பெயர்",
+        "PLACEHOLDER": "கடைசி பெயரை உள்ளிடவும்"
+      },
+      "COMPANY": {
+        "LABEL": "நிறுவனம்",
+        "PLACEHOLDER": "நிறுவனத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "PERSONAL_EMAIL": {
+        "LABEL": "தனிப்பட்ட மின்னஞ்சல்",
+        "PLACEHOLDER": "தனிப்பட்ட மின்னஞ்சலை உள்ளிடவும்"
+      },
+      "PHONE_NUMBER": {
+        "LABEL": "தொலைபேசி எண்",
+        "PLACEHOLDER": "தொலைபேசி எண்ணை உள்ளிடவும்"
+      },
+      "DATE_OF_BIRTH": {
+        "LABEL": "பிறந்த தேதி",
+        "PLACEHOLDER": "பிறந்த தேதியைத் தேர்ந்தெடுக்கவும்"
+      },
+      "WORK_EMAIL": {
+        "LABEL": "வேலை மின்னஞ்சல்",
+        "PLACEHOLDER": "வேலை மின்னஞ்சலை உள்ளிடவும்"
+      },
+      "GENDER": {
+        "LABEL": "பாலினம்",
+        "PLACEHOLDER": "பாலினத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "BLOOD_GROUP": {
+        "LABEL": "இரத்தக் குழு",
+        "PLACEHOLDER": "இரத்தக் குழுவைத் தேர்ந்தெடுக்கவும்"
+      },
+      "FATHER_NAME": {
+        "LABEL": "தந்தையின் பெயர்",
+        "PLACEHOLDER": "தந்தையின் பெயரை உள்ளிடவும்"
+      },
+      "MOTHER_NAME": {
+        "LABEL": "தாயின் பெயர்",
+        "PLACEHOLDER": "தாயின் பெயரை உள்ளிடவும்"
+      },
+      "MARITAL_STATUS": {
+        "LABEL": "திருமண நிலை",
+        "PLACEHOLDER": "திருமண நிலையைத் தேர்ந்தெடுக்கவும்"
+      },
+      "SPOUSE_NAME": {
+        "LABEL": "கணவன்/மனைவியின் பெயர்",
+        "PLACEHOLDER": "கணவன்/மனைவியின் பெயரை உள்ளிடவும்"
+      },
+      "DEPARTMENT": {
+        "LABEL": "துறை",
+        "PLACEHOLDER": "துறையைத் தேர்ந்தெடுக்கவும்"
+      },
+      "DESIGNATION": {
+        "LABEL": "பதவி",
+        "PLACEHOLDER": "பதவியைத் தேர்ந்தெடுக்கவும்"
+      },
+      "REPORT_TO": {
+        "LABEL": "மேலாளர்",
+        "PLACEHOLDER": "மேலாளரைத் தேர்ந்தெடுக்கவும்"
+      },
+      "ACCESS_PARAMETERS": {
+        "HEADER": "அணுகல் அளவைகள்"
+      },
+      "GENERATE_LOGIN_CREDENTIALS": {
+        "LABEL": "உள்நுழைவு சான்றிதழ்கள் உருவாக்கவும்"
+      },
+      "BASE_BRANCH": {
+        "LABEL": "அடிப்படை கிளை",
+        "PLACEHOLDER": "அடிப்படை கிளையை தேர்ந்தெடுக்கவும்"
+      }
+    }
+  },
+  "YEAR_TYPE": {
+    "HEADER_TEXT": {
+      "MAIN": "ஆண்டு பதிவு"
+    },
+    "FIELDS": {
+      "YEAR_TYPE": {
+        "LABEL": "ஆண்டு வகை",
+        "PLACEHOLDER": "ஆண்டு வகையைத் தேர்ந்தெடுக்கவும்"
+      },
+      "START_DATE": {
+        "LABEL": "தொடக்க தேதி",
+        "PLACEHOLDER": "தொடக்க தேதியைத் தேர்ந்தெடுக்கவும்"
+      },
+      "END_DATE": {
+        "LABEL": "முடிவு தேதி",
+        "PLACEHOLDER": "முடிவு தேதியைத் தேர்ந்தெடுக்கவும்"
+      }
+    }
+  },
+  "DYNAMIC_MASTER_FORM": {
+    "HEADER_TEXT": {
+      "MAIN": "மாஸ்டர் பதிவேற்றம்"
+    },
+    "FIELDS": {
+      "MASTER_NAME": {
+        "LABEL": "மாஸ்டர் பெயர்",
+        "PLACEHOLDER": "மாஸ்டர் பெயரை உள்ளிடவும்"
+      },
+      "ASSOCIATED_MASTER_NAME": {
+        "LABEL": "தொடர்புடைய மாஸ்டர் பெயர்",
+        "PLACEHOLDER": "தொடர்புடைய மாஸ்டர் பெயரை உள்ளிடவும்"
+      },
+      "VALUE": {
+        "LABEL": "மதிப்பு",
+        "PLACEHOLDER": "மதிப்பை உள்ளிடவும்"
+      },
+      "ASSOCIATED_MASTER_VALUE": {
+        "LABEL": "தொடர்புடைய மாஸ்டர் மதிப்பு",
+        "PLACEHOLDER": "தொடர்புடைய மாஸ்டர் மதிப்பை உள்ளிடவும்"
+      }
+    }
+  },
+  "SIDEBAR_NAMES": {
+    "TestModuleDelMe": "டெஸ்ட் மோடியூல் டெல் மீ",
+    "TestSubDelMe": "டெஸ்ட் சப் டெல் மீ",
+    "TestDelMe": "டெஸ்ட் டெல் மீ",
+    "Test2DelMe": "டெஸ்ட் 2 டெல் மீ",
+    "Test3DelMe": "டெஸ்ட் 3 டெல் மீ",
+    "TestSub2DelMe": "டெஸ்ட் சப் 2 டெல் மீ",
+    "TestX2DelMe": "டெஸ்ட் எக்ஸ் 2 டெல் மீ",
+    "TestX3DelMe": "டெஸ்ட் எக்ஸ் 3 டெல் மீ",
+    "TestX4DelMe": "டெஸ்ட் எக்ஸ் 4 டெல் மீ",
+    "Dashboard": "டாஷ் போர்ட்",
+    "Central Admin": "மத்திய நிர்வாகம்",
+    "Company": "நிறுவனம்",
+    "Branch": "கிளை",
+    "Year": "ஆண்டு",
+    "Users": "பயனர்கள்",
+    "Templates": "வார்ப்புருக்கள்",
+    "Dynamic Master": "மாறும் மாஸ்டர்",
+    "Edvance": "எட்வான்ஸ்",
+    "Students": "மாணவர்கள்",
+    "List Students": "மாணவர்களின் பட்டியல்",
+    "Inactive Students": "செயலற்ற மாணவர்கள்",
+    "Staffs": "பணியாளர்கள்",
+    "Staff Directory": "பணியாளர் அடைவு",
+    "Payroll": "ஊதிய பட்டியல்",
+    "Inactive Staff": "செயலற்ற பணியாளர்கள்",
+    "Leaves": "அனுமதிகள்",
+    "Academics": "கல்வி",
+    "My Class": "என் வகுப்பு",
+    "Class Timetable": "வகுப்பு நேர அட்டவணை",
+    "Teacher Timetable": "ஆசிரியர் நேர அட்டவணை",
+    "Assign Teacher": "ஆசிரியர் நியமிக்க",
+    "Attendance": "வருகை",
+    "Homework": "வீட்டு வேலை",
+    "Promote Students": "மாணவர்களை முன்னேற்றுங்கள்",
+    "Assign Students": "மாணவர்களை நியமிக்க",
+    "Exams": "தேர்வுகள்",
+    "WorkFlow": "பணி ஓட்டம்",
+    "Notifications": "அறிவிப்புகள்"
+  },
+  "BUTTONS": {
+    "LOGIN": "உள்நுழைக",
+    "FORGOT_PASSWORD": "உங்கள் கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+    "SIGNUP": "இங்கே பதிவு செய்யவும்",
+    "NEW_USER": "பதிவு செய்யவில்லையா? கணக்கை உருவாக்கவும்",
+    "EXIT_USER": "கணக்கு இருக்கிறதா? இங்கே உள்நுழையவும்",
+    "SUBMIT": "சமர்ப்பிக்கவும்",
+    "UPDATE": "புதுப்பிக்கவும்",
+    "BACK": "மீண்டும்"
+  }
+}
